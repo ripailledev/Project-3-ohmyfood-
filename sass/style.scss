@@ -15,7 +15,10 @@
     src: url(./base/font/PWMarker/PWMarker.ttf) format('truetype');
 }
 /*============index.html================*/
-
+a, a:hover, a:visited, a:active
+{
+	text-decoration: none;
+}
 /*=================Header=============*/
 header{
     @include greenyellow;
