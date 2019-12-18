@@ -2,3 +2,9 @@
 //colors
 $green: #579c87;
 $yellow: #fdcb46;
+
+/*==============mixins============*/
+@mixin greenyellow {
+    background-color: $green;
+    color: $yellow;
+}
