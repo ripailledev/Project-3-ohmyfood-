@@ -58,11 +58,11 @@ main {
   margin: 2% 2% 2% 2%;
 }
 
-h4 .first_title_menu1 {
+h4.first_title_menu1 {
   font-family: "Devonshire-Regular", sans-serif;
 }
 
-h3 .second_title_menu1 {
+h3.second_title_menu1 {
   font-family: "PWMarker", sans-serif;
 }
 
