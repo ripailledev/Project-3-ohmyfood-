@@ -21,7 +21,7 @@ main {
   justify-content: space-around;
   text-align: center;
   margin-top: 5%;
-  margin-bottom: 5;
+  margin-bottom: 5%;
 }
 
 .transform {
@@ -30,26 +30,31 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: 2px 4px black;
 }
 
 /*==menu1==*/
 .background1 {
   background-color: #fcdfdb;
+  margin: 2% 2% 2% 2%;
 }
 
 /*==menu2==*/
 .background1 {
   background-color: #fff5fe;
+  margin: 2% 2% 2% 2%;
 }
 
 /*==menu3==*/
 .background3 {
   background-color: #f9f9f9;
+  margin: 2% 2% 2% 2%;
 }
 
 /*==menu4==*/
 .background4 {
   background-color: #fdfffd;
+  margin: 2% 2% 2% 2%;
 }
 
 /*==prochainement==*/

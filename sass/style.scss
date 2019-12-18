@@ -17,7 +17,7 @@ main{
     justify-content: space-around;
     text-align: center;
     margin-top: 5%;
-    margin-bottom: 5;
+    margin-bottom: 5%;
 }
 .transform{
     height: 600px;
@@ -25,22 +25,27 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow:   2px 4px black;
 }
 /*==menu1==*/
 .background1{
     background-color: $menu1;
+    margin: 2% 2% 2% 2%;
 }
 /*==menu2==*/
 .background1{
     background-color: $menu2;
+    margin: 2% 2% 2% 2%;
 }
 /*==menu3==*/
 .background3{
     background-color: $menu3;
+    margin: 2% 2% 2% 2%;
 }
 /*==menu4==*/
 .background4{
     background-color: $menu4;
+    margin: 2% 2% 2% 2%;
 }
 /*==prochainement==*/
 .prochainement{
