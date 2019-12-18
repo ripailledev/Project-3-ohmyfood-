@@ -16,6 +16,15 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5;
+}
+.transform{
+    height: 600px;
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /*==menu1==*/
 .background1{
@@ -37,6 +46,7 @@ main{
 .prochainement{
     @include greenyellow;
     text-align: center;
+    font-size: 150%;
 }
 /*=================footer=============*/
 footer{
