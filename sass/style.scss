@@ -8,10 +8,29 @@ header{
     text-align: center;
 }
 /*=================main=============*/
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
 /*==menu1==*/
+.background1{
+    background-color: $menu1;
+}
 /*==menu2==*/
+.background1{
+    background-color: $menu2;
+}
 /*==menu3==*/
+.background3{
+    background-color: $menu3;
+}
 /*==menu4==*/
+.background4{
+    background-color: $menu4;
+}
 /*==prochainement==*/
 .prochainement{
     @include greenyellow

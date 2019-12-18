@@ -11,10 +11,33 @@ header {
 }
 
 /*=================main=============*/
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
 /*==menu1==*/
+.background1 {
+  background-color: #fcdfdb;
+}
+
 /*==menu2==*/
+.background1 {
+  background-color: #fff5fe;
+}
+
 /*==menu3==*/
+.background3 {
+  background-color: #f9f9f9;
+}
+
 /*==menu4==*/
+.background4 {
+  background-color: #fdfffd;
+}
+
 /*==prochainement==*/
 .prochainement {
   background-color: #579c87;
