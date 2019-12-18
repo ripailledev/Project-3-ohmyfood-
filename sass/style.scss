@@ -8,13 +8,15 @@ header{
     text-align: center;
 }
 /*=================main=============*/
+main{
+    display: block;
+}
 .card{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
 }
-
 /*==menu1==*/
 .background1{
     background-color: $menu1;
@@ -33,11 +35,17 @@ header{
 }
 /*==prochainement==*/
 .prochainement{
-    @include greenyellow
+    @include greenyellow;
+    text-align: center;
 }
 /*=================footer=============*/
 footer{
-    @include greenyellow
+    @include greenyellow;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 
