@@ -4,18 +4,29 @@
 /*==polices==*/
 /*==polices==*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
-/*============index.html================*/
-h1 {
-  font-family: "Roboto", sans-serif;
-  letter-spacing: 0px;
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url(./base/font/Roboto/Roboto-Bold.ttf) format("truetype");
 }
-
+@font-face {
+  font-family: "Devonshire-Regular";
+  src: url(./base/font/Devonshire-Regular/devonshire/Devonshire-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PWMarker";
+  src: url(./base/font/PWMarker/PWMarker.ttf) format("truetype");
+}
+/*============index.html================*/
 /*=================Header=============*/
 header {
   background-color: #579c87;
   color: #fdcb46;
   width: 100%;
   text-align: center;
+}
+header h1 {
+  font-family: "Roboto-Bold", sans-serif;
+  letter-spacing: 0px;
 }
 
 /*=================main=============*/
@@ -45,6 +56,14 @@ main {
 .background1 {
   background-color: #fcdfdb;
   margin: 2% 2% 2% 2%;
+}
+
+h4 .first_title_menu1 {
+  font-family: "Devonshire-Regular", sans-serif;
+}
+
+h3 .second_title_menu1 {
+  font-family: "PWMarker", sans-serif;
 }
 
 /*==menu2==*/
