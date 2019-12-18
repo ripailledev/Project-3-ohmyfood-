@@ -1,6 +1,30 @@
+/*=================import==============*/
 /*==============variables=========*/
-body {
-  border: solid 1px #579c87;
+/*==============mixins============*/
+/*============index.html================*/
+/*=================Header=============*/
+header {
+  background-color: #579c87;
+  color: #fdcb46;
+  width: 100%;
+  text-align: center;
+}
+
+/*=================main=============*/
+/*==menu1==*/
+/*==menu2==*/
+/*==menu3==*/
+/*==menu4==*/
+/*==prochainement==*/
+.prochainement {
+  background-color: #579c87;
+  color: #fdcb46;
+}
+
+/*=================footer=============*/
+footer {
+  background-color: #579c87;
+  color: #fdcb46;
 }
 
 /*# sourceMappingURL=style.css.map */

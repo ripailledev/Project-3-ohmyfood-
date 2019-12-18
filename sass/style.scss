@@ -2,8 +2,10 @@
 @import "./utils/utils.scss";
 /*============index.html================*/
 /*=================Header=============*/
-h1{
-    @include greenyelow;
+header{
+    @include greenyellow;
+    width: 100%;
+    text-align: center;
 }
 /*=================main=============*/
 /*==menu1==*/
@@ -11,7 +13,13 @@ h1{
 /*==menu3==*/
 /*==menu4==*/
 /*==prochainement==*/
+.prochainement{
+    @include greenyellow
+}
 /*=================footer=============*/
+footer{
+    @include greenyellow
+}
 
 
 
