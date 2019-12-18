@@ -50,7 +50,11 @@ main{
 .background1{
     background-color: $menu1;
     margin: 2% 2% 2% 2%;
-    
+    transform: scale(1);
+    &:hover{
+        transform: scale(1.5);
+
+    }
 }
 h4.first_title_menu1{
     font-family: 'Devonshire-Regular',sans-serif;    

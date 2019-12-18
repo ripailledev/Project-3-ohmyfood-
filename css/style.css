@@ -56,6 +56,10 @@ main {
 .background1 {
   background-color: #fcdfdb;
   margin: 2% 2% 2% 2%;
+  transform: scale(1);
+}
+.background1:hover {
+  transform: scale(1.5);
 }
 
 h4.first_title_menu1 {
