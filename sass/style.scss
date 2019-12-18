@@ -2,9 +2,13 @@
 @import "./utils/utils.scss";
 /*==polices==*/
 @import "./base/base.scss";
+@font-face{
+    font-family: 'Roboto-Bold';
+    src: url(./base/font/Roboto/Roboto-Bold.ttf);
+}
 /*============index.html================*/
 h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Bold', sans-serif;
     letter-spacing: 0px;    
 }
 /*=================Header=============*/
