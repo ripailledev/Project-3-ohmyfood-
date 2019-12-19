@@ -1,6 +1,7 @@
 /*=================import==============*/
 /*==============variables=========*/
 /*==============mixins============*/
+/*==keyframes==*/
 /*==polices==*/
 /*==polices==*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
@@ -19,6 +20,10 @@
 /*============index.html================*/
 a, a:hover, a:visited, a:active {
   text-decoration: none;
+  transition: transform 400ms;
+}
+a:hover, a:hover:hover, a:visited:hover, a:active:hover {
+  transform: scale(1.9);
 }
 
 /*=================Header=============*/
@@ -60,14 +65,14 @@ main {
 .background1 {
   background-color: #fcdfdb;
   margin: 2% 2% 2% 2%;
-  transform: scale(1);
 }
 .background1:hover {
-  transform: scale(1.1);
+  background-color: #facac3;
 }
 
 h4.first_title_menu1 {
   font-family: "Devonshire-Regular", sans-serif;
+  transform: scale(1);
 }
 
 h3.second_title_menu1 {
@@ -79,17 +84,26 @@ h3.second_title_menu1 {
   background-color: #fff5fe;
   margin: 2% 2% 2% 2%;
 }
+.background2:hover {
+  background-color: #ffdcfb;
+}
 
 /*==menu3==*/
 .background3 {
   background-color: #f9f9f9;
   margin: 2% 2% 2% 2%;
 }
+.background3:hover {
+  background-color: #ececec;
+}
 
 /*==menu4==*/
 .background4 {
   background-color: #fdfffd;
   margin: 2% 2% 2% 2%;
+}
+.background4:hover {
+  background-color: #e4ffe4;
 }
 
 /*==prochainement==*/
@@ -98,6 +112,9 @@ h3.second_title_menu1 {
   color: #fdcb46;
   text-align: center;
   font-size: 150%;
+  width: 50%;
+  display: flex;
+  align-items: center;
 }
 
 /*=================footer=============*/
