@@ -142,14 +142,15 @@ i{
     margin-bottom: 5%;
     border-radius: 10px;
 }
-.prochainement h3{
+.sp{
     font-family: monospace;
     border-right: .15em solid $yellow;
     letter-spacing: .15em ;
     overflow: hidden;
     white-space: nowrap;
-    margin: autotr;
-    animation: typing 5s steps(30, end) infinite;
+    margin: auto;
+    padding-right: 10px;
+    animation: typing 10s steps(30, end) infinite;
 }
 @keyframes typing{
     from{
