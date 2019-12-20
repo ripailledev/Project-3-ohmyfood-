@@ -1,14 +1,26 @@
 /*==============variables=========*/
 //colors
+       //bandeau
 $green: #579c87;
 $yellow:#fdcb46;
+       //menu1
 $menu1: #fcdfdb;
+$note1: #f05261;
+$note2: #f6916a;
+       //menu2
 $menu2: #fff5fe;
+$menu2txt1: #e38a12;
+$menu2txt2: #8f5aff;
+$menu2txt3: #c77412;
+       //menu3
 $menu3: #f9f9f9;
+$menu3txt1: #0230df;
+$menu3txt2: #0889fb;
+       //menu4
 $menu4: #fdfffd;
-$note1:#f05261;
-$noter2:#f6916a;
-
+$menu4txt1:#3e923a;
+$menu4txt2: #beff7f;
+$menu4txt3: #72bf56;
 /*==============mixins============*/
 @mixin greenyellow {
     background-color: $green;
