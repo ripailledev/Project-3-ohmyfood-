@@ -15,7 +15,7 @@
     src: url(./base/font/PWMarker/PWMarker.ttf) format('truetype');
 }
 /*============index.html================*/
-a, a:hover, a:visited, a:active{
+a,{
     text-decoration: none;
     transition:transform 400ms;    
     &:hover{
@@ -26,12 +26,14 @@ a, a:hover, a:visited, a:active{
 header{
     @include greenyellow;
     width: 100%;
-    height: 100px;
+    height: 200px;
     text-align: center;
     h1{
         font-family: 'Roboto-Bold', sans-serif;
         font-size: 75px;
         letter-spacing: -10px;
+        margin-top: auto;
+        padding-top: 2%;
     }   
 }
 /*=================main=============*/
@@ -55,7 +57,7 @@ main{
     box-shadow:  1px 2px 20px rgb(139, 135, 135);
 }
 /*==menu1==*/
-.background1{
+.menu1{
     background-color: $menu1;
     margin: 2% 2% 2% 2%; 
     &:hover {
@@ -78,27 +80,55 @@ i{
     color: transparent;
 }
 /*==menu2==*/
-.background2{
+.menu2{
     background-color: $menu2;
     margin: 2% 2% 2% 2%;
     &:hover {
         background-color: darken($menu2, 5);
     }
+    h4{
+        background-image: linear-gradient(to right, ($menu2txt1), ($menu2txt2));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent; 
+    }
+    h3{
+        color: $menu2txt3;
+    }
 }
+
 /*==menu3==*/
-.background3{
+.menu3{
     background-color: $menu3;
     margin: 2% 2% 2% 2%;
     &:hover {
         background-color: darken($menu3, 5);
     }
+    h4{
+        background-image: linear-gradient(to right, ($menu3txt1), ($menu3txt2));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    h3{
+        color: $menu3txt2;
+    }
 }
 /*==menu4==*/
-.background4{
+.menu4{
     background-color: $menu4;
     margin: 2% 2% 2% 2%;
     &:hover {
         background-color: darken($menu4, 5);
+    }
+    h4{
+        background-image: linear-gradient(to right, ($menu4txt1), ($menu4txt2));
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+    h3{
+        color: $menu4txt3;
     }
 }
 /*==prochainement==*/
