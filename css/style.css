@@ -155,9 +155,28 @@ i {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 5%;
   border-radius: 10px;
 }
 
+.prochainement h3 {
+  font-family: monospace;
+  border-right: 0.15em solid #fdcb46;
+  letter-spacing: 0.15em;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: autotr;
+  animation: typing 5s steps(30, end) infinite;
+}
+
+@keyframes typing {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 90%;
+  }
+}
 /*=================footer=============*/
 footer {
   background-color: #579c87;
