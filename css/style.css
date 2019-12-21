@@ -19,7 +19,47 @@
 }
 @font-face {
   font-family: "Croissantone-Regular";
-  src: url(./font/CroissantOne-Regular.ttf) format("truetype");
+  src: url(./base/font/CroissantOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Dancingscript-Regular";
+  src: url(./base/font/DancingScript-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url(./font/Segoe.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Kaushanscript";
+  src: url(./base/font/KaushanScript-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url(./base/font/Roboto/Roboto-Regular) format("truetype");
+}
+@font-face {
+  font-family: "Devonshire-Regular";
+  src: url(./base/font/Devonshire-Regular/devonshire/Devonshire-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PWMarker";
+  src: url(./base/font/PWMarker/PWMarker.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Croissantone-Regular";
+  src: url(./base/font/CroissantOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Dancingscript-Regular";
+  src: url(./base/font/DancingScript-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url(./font/Segoe.ttf) format("truetype");
+}
+@font-face {
+  font-family: "KaushanScript-Regular";
+  src: url(./base/font/KaushanScript-Regular.otf) format("truetype");
 }
 /*============index.html================*/
 a {
@@ -39,7 +79,7 @@ header {
   text-align: center;
 }
 header h1 {
-  font-family: "Roboto-Regular", sans-serif;
+  font-family: "Roboto-Regular";
   font-size: 75px;
   letter-spacing: -10px;
   margin-top: auto;
@@ -79,11 +119,11 @@ main {
 }
 
 h4.first_title_menu1 {
-  font-family: "Devonshire-Regular", sans-serif;
+  font-family: "Devonshire-Regular";
 }
 
 h3.second_title_menu1 {
-  font-family: "PWMarker", sans-serif;
+  font-family: "PWMarker";
 }
 
 i {
@@ -115,7 +155,7 @@ h4 .first_title_menu2 {
   font-family: "Croissantone-Regular";
 }
 
-h3 .secont_title_menu2 {
+h3 .second_title_menu2 {
   font-family: "Arial";
 }
 
@@ -141,7 +181,7 @@ h4 .first_title_menu3 {
   font-family: "Dancingscript-Regular";
 }
 
-h3 .secont_title_menu3 {
+h3 .second_title_menu3 {
   font-family: "Segoe";
 }
 
@@ -163,11 +203,11 @@ h3 .secont_title_menu3 {
   color: #72bf56;
 }
 
-h4 .first_title_menu4 {
-  font-family: "Kaushanscript-Regular";
+.first_title_menu4 {
+  font-family: "KaushanScript-Regular";
 }
 
-h3 .secont_title_menu4 {
+.second_title_menu4 {
   font-family: "Segoe";
 }
 

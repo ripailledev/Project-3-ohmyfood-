@@ -2,6 +2,35 @@
 @import "./utils/utils.scss";
 /*==polices==*/
 @import "./base/base.scss";
+@font-face{
+    font-family: 'Roboto-Regular';
+    src: url(./base/font/Roboto/Roboto-Regular) format('truetype');
+}
+@font-face{
+    font-family: 'Devonshire-Regular';
+    src: url(./base/font/Devonshire-Regular/devonshire/Devonshire-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'PWMarker';
+    src: url(./base/font/PWMarker/PWMarker.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Croissantone-Regular';
+    src: url(./base/font/CroissantOne-Regular.ttf) format('truetype');
+}
+@font-face{
+    font-family: 'Dancingscript-Regular';
+    src: url(./base/font/DancingScript-Regular.otf) format('truetype');
+}
+@font-face{
+    font-family: 'Segoe';
+    src: url(./font/Segoe.ttf) format('truetype');    
+}
+@font-face{
+    font-family: 'KaushanScript-Regular';
+    src: url(./base/font/KaushanScript-Regular.otf) format('truetype');
+}
+
 
 /*============index.html================*/
 a{
@@ -18,7 +47,7 @@ header{
     height: 200px;
     text-align: center;
     h1{
-        font-family: 'Roboto-Regular', sans-serif;
+        font-family: 'Roboto-Regular';
         font-size: 75px;
         letter-spacing: -10px;
         margin-top: auto;
@@ -54,10 +83,10 @@ main{
     }   
 }
 h4.first_title_menu1{
-    font-family: 'Devonshire-Regular',sans-serif;   
+    font-family: 'Devonshire-Regular';   
     }
 h3.second_title_menu1{
-    font-family: 'PWMarker',sans-serif;
+    font-family: 'PWMarker';
 }
 i{
     background-image: linear-gradient(to right, ($note1), ($note2));
@@ -85,7 +114,7 @@ i{
 h4 .first_title_menu2{
     font-family: 'Croissantone-Regular';
 }
-h3 .secont_title_menu2{
+h3 .second_title_menu2{
     font-family: 'Arial';
 }
 
@@ -109,7 +138,7 @@ h3 .secont_title_menu2{
 h4 .first_title_menu3{
     font-family: 'Dancingscript-Regular';
 }
-h3 .secont_title_menu3{
+h3 .second_title_menu3{
     font-family: 'Segoe';
 }
 /*==menu4==*/
@@ -129,10 +158,10 @@ h3 .secont_title_menu3{
         color: $menu4txt3;
     }
 }
-h4 .first_title_menu4{
-    font-family: 'Kaushanscript-Regular';
+.first_title_menu4{
+    font-family: 'KaushanScript-Regular';    
 }
-h3 .secont_title_menu4{
+.second_title_menu4{
     font-family: 'Segoe';
 }
 /*==prochainement==*/
@@ -171,7 +200,7 @@ h3 .secont_title_menu4{
 footer{
     @include greenyellow;
     position: fixed;
-    bottom: 0;
+    bottom: 0;    
     display: flex;    
     justify-content: space-between;
     padding-left: 5%;
