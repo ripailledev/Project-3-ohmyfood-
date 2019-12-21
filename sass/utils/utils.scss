@@ -49,6 +49,11 @@ $menu4txt3: #72bf56;
        90% { transform: translate(1px, 2px) rotate(0deg); }
        100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
-   
+/*==extend==*/
+%btn{
+       &:hover a{
+              transform: scale(1.90);
+          }   
+}  
 
 
