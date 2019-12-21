@@ -6,8 +6,8 @@
 /*==polices==*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url(./base/font/Roboto/Roboto-Bold.ttf) format("truetype");
+  font-family: "Roboto-Regular";
+  src: url(./base/font/Roboto/Roboto-Regular) format("truetype");
 }
 @font-face {
   font-family: "Devonshire-Regular";
@@ -16,6 +16,10 @@
 @font-face {
   font-family: "PWMarker";
   src: url(./base/font/PWMarker/PWMarker.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Croissantone-Regular";
+  src: url(./font/CroissantOne-Regular.ttf) format("truetype");
 }
 /*============index.html================*/
 a {
@@ -35,7 +39,7 @@ header {
   text-align: center;
 }
 header h1 {
-  font-family: "Roboto-Bold", sans-serif;
+  font-family: "Roboto-Regular", sans-serif;
   font-size: 75px;
   letter-spacing: -10px;
   margin-top: auto;
@@ -107,6 +111,14 @@ i {
   color: #c77412;
 }
 
+h4 .first_title_menu2 {
+  font-family: "Croissantone-Regular";
+}
+
+h3 .secont_title_menu2 {
+  font-family: "Arial";
+}
+
 /*==menu3==*/
 .menu3 {
   background-color: #f9f9f9;
@@ -125,6 +137,14 @@ i {
   color: #0889fb;
 }
 
+h4 .first_title_menu3 {
+  font-family: "Dancingscript-Regular";
+}
+
+h3 .secont_title_menu3 {
+  font-family: "Segoe";
+}
+
 /*==menu4==*/
 .menu4 {
   background-color: #fdfffd;
@@ -141,6 +161,14 @@ i {
 }
 .menu4 h3 {
   color: #72bf56;
+}
+
+h4 .first_title_menu4 {
+  font-family: "Kaushanscript-Regular";
+}
+
+h3 .secont_title_menu4 {
+  font-family: "Segoe";
 }
 
 /*==prochainement==*/
@@ -182,6 +210,8 @@ i {
 footer {
   background-color: #579c87;
   color: #fdcb46;
+  position: fixed;
+  bottom: 0;
   display: flex;
   justify-content: space-between;
   padding-left: 5%;

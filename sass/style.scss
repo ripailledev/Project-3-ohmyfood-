@@ -2,18 +2,7 @@
 @import "./utils/utils.scss";
 /*==polices==*/
 @import "./base/base.scss";
-@font-face{
-    font-family: 'Roboto-Bold';
-    src: url(./base/font/Roboto/Roboto-Bold.ttf) format('truetype');
-}
-@font-face{
-    font-family: 'Devonshire-Regular';
-    src: url(./base/font/Devonshire-Regular/devonshire/Devonshire-Regular.ttf) format('truetype');
-}
-@font-face{
-    font-family: 'PWMarker';
-    src: url(./base/font/PWMarker/PWMarker.ttf) format('truetype');
-}
+
 /*============index.html================*/
 a{
     text-decoration: none;
@@ -29,7 +18,7 @@ header{
     height: 200px;
     text-align: center;
     h1{
-        font-family: 'Roboto-Bold', sans-serif;
+        font-family: 'Roboto-Regular', sans-serif;
         font-size: 75px;
         letter-spacing: -10px;
         margin-top: auto;
@@ -93,6 +82,12 @@ i{
         color: $menu2txt3;
     }
 }
+h4 .first_title_menu2{
+    font-family: 'Croissantone-Regular';
+}
+h3 .secont_title_menu2{
+    font-family: 'Arial';
+}
 
 /*==menu3==*/
 .menu3{
@@ -111,6 +106,12 @@ i{
         color: $menu3txt2;
     }
 }
+h4 .first_title_menu3{
+    font-family: 'Dancingscript-Regular';
+}
+h3 .secont_title_menu3{
+    font-family: 'Segoe';
+}
 /*==menu4==*/
 .menu4{
     background-color: $menu4;
@@ -127,6 +128,12 @@ i{
     h3{
         color: $menu4txt3;
     }
+}
+h4 .first_title_menu4{
+    font-family: 'Kaushanscript-Regular';
+}
+h3 .secont_title_menu4{
+    font-family: 'Segoe';
 }
 /*==prochainement==*/
 .prochainement{
@@ -163,6 +170,8 @@ i{
 /*=================footer=============*/
 footer{
     @include greenyellow;
+    position: fixed;
+    bottom: 0;
     display: flex;    
     justify-content: space-between;
     padding-left: 5%;
