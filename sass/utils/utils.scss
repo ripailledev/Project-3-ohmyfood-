@@ -17,8 +17,8 @@
     src: url(../font/DancingScript-Regular.otf) format('truetype');
 }
 @font-face{
-    font-family: 'Segoe';
-    src: url(../font/Segoe.ttf) format('truetype');    
+    font-family: 'Segoeprint';
+    src: url(../font/SegoePrint.ttf) format('truetype');    
 }
 @font-face{
     font-family: 'Kaushanscript';
@@ -34,6 +34,7 @@ $greenshadow: #a1c181;
 $menu1: #fcdfdb;
 $note1: #f05261;
 $note2: #f6916a;
+$menu1txt:#3d1319;
        //menu2
 $menu2: #fff5fe;
 $menu2txt1: #e38a12;
@@ -55,11 +56,11 @@ $menu4txt3: #72bf56;
 }
 /*==keyframes==*/
 @keyframes typing{
-       0%{
+       from{
            width: 0%;
        }
-       100%{
-           width: 100%;
+       to{
+           width: 10%;
        }
 }
 @keyframes shake {

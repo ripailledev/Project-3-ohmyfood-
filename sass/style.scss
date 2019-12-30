@@ -77,11 +77,13 @@ main{
 }
 
 h2.first_title_menu1{
-    font-family: 'Devonshire-Regular';   
+    font-family: 'Devonshire-Regular';
+    color: $menu1txt;   
     }
 
 span.second_title_menu1{
     font-family: 'PWMarker';
+    color: $menu1txt;
 }
 
 i{
@@ -111,11 +113,11 @@ i{
     }
 }
 
-h2 .first_title_menu2{
-    font-family: 'CroissantOne-Regular';
+h2.first_title_menu2{
+    font-family: 'Croissantone-Regular',sans-serif;
 }
 
-span .second_title_menu2{
+span.second_title_menu2{
     font-family: 'Arial';
 }
 
@@ -139,11 +141,11 @@ span .second_title_menu2{
     }
 }
 
-h2 .first_title_menu3{
+h2.first_title_menu3{
     font-family: 'Dancingscript-Regular';
 }
-span .second_title_menu3{
-    font-family: 'Segoe';
+span.second_title_menu3{
+    font-family: 'Segoeprint';
 }
 
 /*==menu4==*/
@@ -171,7 +173,7 @@ span .second_title_menu3{
 }
 
 .second_title_menu4{
-    font-family: 'Segoe';
+    font-family: 'Segoeprint';
 }
 
 /*==prochainement==*/
@@ -196,8 +198,9 @@ div.sp{
     border-right: .15em solid $yellow;
     letter-spacing: .15em ;
     overflow: hidden;
-    white-space: nowrap;    
-    animation: typing 10s steps(15, end) infinite;          
+    white-space: nowrap;  
+    margin: auto;  
+    animation: typing 5s steps(10, end) infinite;          
 }
 
 /*=================footer=============*/
