@@ -1,14 +1,50 @@
+/*==sommaire==*/
+/*== 1 import==*/
+/*== 2 index==*/
+/*== 3 header==*/
+/*== 4 main==*/
+/*== 5 menu1==*/
+/*== 6 menu2==*/
+/*== 7 menu3==*/
+/*== 8 menu4==*/
+/*== 9 prochainement==*/
+/*== 10 footer==*/
 /*=================import==============*/
+/*==polices==*/
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@font-face {
+  font-family: "Devonshire-Regular";
+  src: url(../font/Devonshire-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "PWMarker";
+  src: url(../font/PWMarker.ttf) format("truetype");
+}
+@font-face {
+  font-family: "CroissantOne-Regular";
+  src: url(../font/CroissantOne-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Dancingscript-Regular";
+  src: url(../font/DancingScript-Regular.otf) format("truetype");
+}
+@font-face {
+  font-family: "Segoe";
+  src: url(../font/Segoe.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Kaushanscript";
+  src: url(../font/KaushanScript-Regular.otf) format("truetype");
+}
 /*==============variables=========*/
 /*==============mixins============*/
 /*==keyframes==*/
-@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @keyframes typing {
-  from {
+  0% {
     width: 0%;
   }
-  to {
-    width: 90%;
+  100% {
+    width: 100%;
   }
 }
 @keyframes shake {
@@ -52,31 +88,6 @@
 }
 
 /*==polices==*/
-/*==polices==*/
-@font-face {
-  font-family: "Devonshire-Regular";
-  src: url(./base/font/Devonshire-Regular/devonshire/Devonshire-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "PWMarker";
-  src: url(./base/font/PWMarker/PWMarker.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Croissantone-Regular";
-  src: url(./base/font/CroissantOne-Regular.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Dancingscript-Regular";
-  src: url(./base/font/DancingScript-Regular.otf) format("truetype");
-}
-@font-face {
-  font-family: "Segoe";
-  src: url(./font/Segoe.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Kaushanscript";
-  src: url(./base/font/KaushanScript-Regular.otf) format("truetype");
-}
 /*============index.html================*/
 a {
   transition: transform 800ms;
@@ -132,11 +143,11 @@ main {
   background-color: #facac3;
 }
 
-h4.first_title_menu1 {
+h2.first_title_menu1 {
   font-family: "Devonshire-Regular";
 }
 
-h3.second_title_menu1 {
+span.second_title_menu1 {
   font-family: "PWMarker";
 }
 
@@ -155,21 +166,21 @@ i {
 .menu2:hover {
   background-color: #ffdcfb;
 }
-.menu2 h4 {
+.menu2 h2 {
   background-image: linear-gradient(to right, #e38a12, #8f5aff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.menu2 h3 {
+.menu2 span {
   color: #c77412;
 }
 
-h4 .first_title_menu2 {
-  font-family: "Croissantone-Regular";
+h2 .first_title_menu2 {
+  font-family: "CroissantOne-Regular";
 }
 
-h3 .second_title_menu2 {
+span .second_title_menu2 {
   font-family: "Arial";
 }
 
@@ -181,21 +192,21 @@ h3 .second_title_menu2 {
 .menu3:hover {
   background-color: #ececec;
 }
-.menu3 h4 {
+.menu3 h2 {
   background-image: linear-gradient(to right, #0230df, #0889fb);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.menu3 h3 {
+.menu3 span {
   color: #0889fb;
 }
 
-h4 .first_title_menu3 {
+h2 .first_title_menu3 {
   font-family: "Dancingscript-Regular";
 }
 
-h3 .second_title_menu3 {
+span .second_title_menu3 {
   font-family: "Segoe";
 }
 
@@ -207,13 +218,13 @@ h3 .second_title_menu3 {
 .menu4:hover {
   background-color: #e4ffe4;
 }
-.menu4 h4 {
+.menu4 h2 {
   background-image: linear-gradient(to right, #3e923a, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.menu4 h3 {
+.menu4 span {
   color: #72bf56;
 }
 
@@ -242,15 +253,13 @@ h3 .second_title_menu3 {
   border-radius: 10px;
 }
 
-.sp {
+div.sp {
   font-family: monospace;
   border-right: 0.15em solid #fdcb46;
   letter-spacing: 0.15em;
   overflow: hidden;
   white-space: nowrap;
-  margin: auto;
-  padding-right: 10px;
-  animation: typing 10s steps(30, end) infinite;
+  animation: typing 10s steps(15, end) infinite;
 }
 
 /*=================footer=============*/
@@ -266,7 +275,7 @@ footer {
   padding-left: 5%;
   padding-right: 5%;
 }
-footer h4 {
+footer h2 {
   color: #fdcb46;
 }
 
