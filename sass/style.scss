@@ -1,14 +1,34 @@
+/*==sommaire==*/
+    /*== 1 import==*/
+    /*== 2 index==*/
+    /*== 3 header==*/
+    /*== 4 main==*/
+    /*== 5 menu1==*/
+    /*== 6 menu2==*/
+    /*== 7 menu3==*/
+    /*== 8 menu4==*/
+    /*== 9 prochainement==*/
+    /*== 10 footer==*/
+
+
+
 /*=================import==============*/
+
 @import "./utils/utils.scss";
+
 /*==polices==*/
+
 @import "./base/base.scss";
 
 /*============index.html================*/
+
 a{  
     transition:transform 800ms;  
      text-decoration: none;
 }
+
 /*=================Header=============*/
+
 header{
     @include greenyellow;
     width: 100%;
@@ -23,7 +43,9 @@ header{
         padding-top: 2%;
     }   
 }
+
 /*=================main=============*/
+
 main{
     display: block;
 }
@@ -44,6 +66,7 @@ main{
     box-shadow:  1px 2px 20px rgb(139, 135, 135);
 }
 /*==menu1==*/
+
 .menu1{
     background-color: $menu1;
     margin: 2% 2% 2% 2%; 
@@ -52,19 +75,24 @@ main{
     }
     @extend %btn;
 }
+
 h2.first_title_menu1{
     font-family: 'Devonshire-Regular';   
     }
+
 span.second_title_menu1{
     font-family: 'PWMarker';
 }
+
 i{
     background-image: linear-gradient(to right, ($note1), ($note2));
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
+
 /*==menu2==*/
+
 .menu2{
     background-color: $menu2;
     margin: 2% 2% 2% 2%;
@@ -82,14 +110,17 @@ i{
         color: $menu2txt3;
     }
 }
+
 h2 .first_title_menu2{
     font-family: 'Croissantone-Regular';
 }
+
 span .second_title_menu2{
     font-family: 'Arial';
 }
 
 /*==menu3==*/
+
 .menu3{
     background-color: $menu3;
     margin: 2% 2% 2% 2%;
@@ -107,13 +138,16 @@ span .second_title_menu2{
         color: $menu3txt2;
     }
 }
+
 h2 .first_title_menu3{
     font-family: 'Dancingscript-Regular';
 }
 span .second_title_menu3{
     font-family: 'Segoe';
 }
+
 /*==menu4==*/
+
 .menu4{
     background-color: $menu4;
     margin: 2% 2% 2% 2%;
@@ -131,13 +165,17 @@ span .second_title_menu3{
         color: $menu4txt3;
     }
 }
+
 .first_title_menu4{
     font-family: 'KaushanScript-Regular';    
 }
+
 .second_title_menu4{
     font-family: 'Segoe';
 }
+
 /*==prochainement==*/
+
 .prochainement{
     @include greenyellow;
     text-align: center;
@@ -152,6 +190,7 @@ span .second_title_menu3{
     margin-bottom: 5%;
     border-radius: 10px;
 }
+
 div.sp{
     font-family: monospace;
     border-right: .15em solid $yellow;
@@ -160,7 +199,9 @@ div.sp{
     white-space: nowrap;    
     animation: typing 10s steps(15, end) infinite;          
 }
+
 /*=================footer=============*/
+
 footer{
     @include greenyellow;
     position: fixed;
@@ -175,12 +216,14 @@ footer{
         color:$yellow;
     }    
 }
+
 .mentions{
     &:hover{
         animation: shake .5S ;
         animation-iteration-count: infinite;
         }
 }
+
 .mail{
     &:hover{
         animation: shake .5S ;
