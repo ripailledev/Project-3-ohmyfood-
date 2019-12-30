@@ -132,11 +132,11 @@ main {
   background-color: #facac3;
 }
 
-h4.first_title_menu1 {
+h2.first_title_menu1 {
   font-family: "Devonshire-Regular";
 }
 
-h3.second_title_menu1 {
+span.second_title_menu1 {
   font-family: "PWMarker";
 }
 
@@ -155,21 +155,21 @@ i {
 .menu2:hover {
   background-color: #ffdcfb;
 }
-.menu2 h4 {
+.menu2 h2 {
   background-image: linear-gradient(to right, #e38a12, #8f5aff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.menu2 h3 {
+.menu2 span {
   color: #c77412;
 }
 
-h4 .first_title_menu2 {
+h2 .first_title_menu2 {
   font-family: "Croissantone-Regular";
 }
 
-h3 .second_title_menu2 {
+span .second_title_menu2 {
   font-family: "Arial";
 }
 
@@ -181,21 +181,21 @@ h3 .second_title_menu2 {
 .menu3:hover {
   background-color: #ececec;
 }
-.menu3 h4 {
+.menu3 h2 {
   background-image: linear-gradient(to right, #0230df, #0889fb);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.menu3 h3 {
+.menu3 span {
   color: #0889fb;
 }
 
-h4 .first_title_menu3 {
+h2 .first_title_menu3 {
   font-family: "Dancingscript-Regular";
 }
 
-h3 .second_title_menu3 {
+span .second_title_menu3 {
   font-family: "Segoe";
 }
 
@@ -207,13 +207,13 @@ h3 .second_title_menu3 {
 .menu4:hover {
   background-color: #e4ffe4;
 }
-.menu4 h4 {
+.menu4 h2 {
   background-image: linear-gradient(to right, #3e923a, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-.menu4 h3 {
+.menu4 span {
   color: #72bf56;
 }
 
@@ -266,7 +266,7 @@ footer {
   padding-left: 5%;
   padding-right: 5%;
 }
-footer h4 {
+footer h2 {
   color: #fdcb46;
 }
 

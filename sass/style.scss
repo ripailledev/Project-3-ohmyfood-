@@ -52,10 +52,10 @@ main{
     }
     @extend %btn;
 }
-h4.first_title_menu1{
+h2.first_title_menu1{
     font-family: 'Devonshire-Regular';   
     }
-h3.second_title_menu1{
+span.second_title_menu1{
     font-family: 'PWMarker';
 }
 i{
@@ -72,20 +72,20 @@ i{
         background-color: darken($menu2, 5);
     }
     @extend %btn;
-    h4{
+    h2{
         background-image: linear-gradient(to right, ($menu2txt1), ($menu2txt2));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent; 
     }
-    h3{
+    span{
         color: $menu2txt3;
     }
 }
-h4 .first_title_menu2{
+h2 .first_title_menu2{
     font-family: 'Croissantone-Regular';
 }
-h3 .second_title_menu2{
+span .second_title_menu2{
     font-family: 'Arial';
 }
 
@@ -97,20 +97,20 @@ h3 .second_title_menu2{
         background-color: darken($menu3, 5);
     }
     @extend %btn;
-    h4{
+    h2{
         background-image: linear-gradient(to right, ($menu3txt1), ($menu3txt2));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
     }
-    h3{
+    span{
         color: $menu3txt2;
     }
 }
-h4 .first_title_menu3{
+h2 .first_title_menu3{
     font-family: 'Dancingscript-Regular';
 }
-h3 .second_title_menu3{
+span .second_title_menu3{
     font-family: 'Segoe';
 }
 /*==menu4==*/
@@ -121,13 +121,13 @@ h3 .second_title_menu3{
         background-color: darken($menu4, 5);
     }
     @extend %btn;
-    h4{
+    h2{
         background-image: linear-gradient(to right, ($menu4txt1), ($menu4txt2));
         background-clip: text;
         -webkit-background-clip: text;
         color: transparent;
     }
-    h3{
+    span{
         color: $menu4txt3;
     }
 }
@@ -173,7 +173,7 @@ footer{
     justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    h4{
+    h2{
         color:$yellow;
     }    
 }
