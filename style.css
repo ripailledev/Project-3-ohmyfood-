@@ -4,11 +4,11 @@
 /*==keyframes==*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @keyframes typing {
-  from {
+  0% {
     width: 0%;
   }
-  to {
-    width: 90%;
+  100% {
+    width: 100%;
   }
 }
 @keyframes shake {
@@ -242,15 +242,13 @@ span .second_title_menu3 {
   border-radius: 10px;
 }
 
-.sp {
+div.sp {
   font-family: monospace;
   border-right: 0.15em solid #fdcb46;
   letter-spacing: 0.15em;
   overflow: hidden;
   white-space: nowrap;
-  margin: auto;
-  padding-right: 10px;
-  animation: typing 10s steps(30, end) infinite;
+  animation: typing 10s steps(15, end) infinite;
 }
 
 /*=================footer=============*/

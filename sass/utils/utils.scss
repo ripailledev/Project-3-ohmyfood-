@@ -29,11 +29,11 @@ $menu4txt3: #72bf56;
 }
 /*==keyframes==*/
 @keyframes typing{
-       from{
+       0%{
            width: 0%;
        }
-       to{
-           width: 90%;
+       100%{
+           width: 100%;
        }
 }
 @keyframes shake {
