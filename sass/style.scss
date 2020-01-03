@@ -21,11 +21,13 @@
 @import "./base/base.scss";
 
 /*============index.html================*/
-
-a{  
-    transition:transform 800ms;  
-     text-decoration: none;
+h1{ color: $yellow;
+    @extend %clic
 }
+a{
+    @extend %clic
+}
+
 
 /*=================Header=============*/
 

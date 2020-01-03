@@ -87,11 +87,15 @@
   transform: scale(1.9);
 }
 
-/*==polices==*/
-/*============index.html================*/
-a {
+a, h1 {
   transition: transform 800ms;
   text-decoration: none;
+}
+
+/*==polices==*/
+/*============index.html================*/
+h1 {
+  color: #fdcb46;
 }
 
 /*=================Header=============*/
