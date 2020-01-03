@@ -337,6 +337,27 @@ p.tarif {
   font-size: large;
 }
 
+.background_menu1 h3:before, .background_menu1 h3:after {
+  content: "";
+  width: 10%;
+  border-bottom: #3d1319 solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+.background_menu1 h3:before {
+  margin-left: -50%;
+  margin-right: 3em;
+}
+.background_menu1 h3:after {
+  margin-right: -50%;
+  margin-left: 3em;
+}
+
+.footer_menu1 p {
+  font-family: "Devonshire-Regular";
+  font-size: xx-large;
+}
+
 /*===========menu2.html============*/
 .background_menu2 {
   background-color: #fff5fe;

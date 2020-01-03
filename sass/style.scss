@@ -258,6 +258,7 @@ li{
     background-color: $menu1;
     margin-bottom: 68px;
 }
+
 .background_menu1 section{
     text-align: center;
     font-family: 'Devonshire-Regular';
@@ -268,12 +269,39 @@ li{
         font-size: x-large;
     }
 }
+
 .background_menu1 p{
     font-family: 'SegoePrint';
 }
+
 p.tarif{
     font-family: 'Devonshire-Regular';
     font-size: large;
+}
+
+.background_menu1{
+    h3:before, h3:after {
+        content:'';
+        width:10%;
+        border-bottom:$menu1txt solid;
+        display:inline-block;
+        vertical-align:middle;
+    }
+    h3:before{
+        margin-left:-50%;
+        margin-right:3em
+    }
+    h3:after{
+        margin-right:-50%;
+        margin-left:3em;
+    }
+}
+
+.footer_menu1{
+    p{
+        font-family: 'Devonshire-Regular';
+        font-size: xx-large;
+    }
 }
 
 /*===========menu2.html============*/
