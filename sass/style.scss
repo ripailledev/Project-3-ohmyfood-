@@ -10,6 +10,7 @@
     /*== 8 menu4==*/
     /*== 9 prochainement==*/
     /*== 10 footer==*/
+/*===========menu============*/    
 /*===========menu1.html============*/
 /*===========menu2.html============*/
 /*===========menu3.html============*/
@@ -241,12 +242,40 @@ footer{
         }    
 }
 
+/*===========menu ============*/
+
+.background_menu1 section{
+    text-align: center;
+    font-family: 'Devonshire-Regular';
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
 /*===========menu1.html============*/
+
 .background_menu1{
     background-color: $menu1;
 }
+
 /*===========menu2.html============*/
 
+.background_menu2{
+    background-color: $menu2;
+}
+
 /*===========menu3.html============*/
+
+.background_menu3{
+    background-color: $menu3b;
+}
+
 /*===========menu4.html============*/
 
+.background_menu4{
+    background-color: $menu4;
+}
