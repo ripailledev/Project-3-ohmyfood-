@@ -77,7 +77,8 @@ main{
 
 .menu1{
     background-color: $menu1;
-    margin: 2% 2% 2% 2%; 
+    margin: 2% 2% 2% 2%;
+    transition: 1s; 
     &:hover {
     background-color: darken($menu1, 5);
     }
@@ -106,6 +107,7 @@ i{
 .menu2{
     background-color: $menu2;
     margin: 2% 2% 2% 2%;
+    transition: 1s;
     &:hover {
         background-color: darken($menu2, 5);
     }
@@ -134,6 +136,7 @@ span.second_title_menu2{
 .menu3{
     background-color: $menu3;
     margin: 2% 2% 2% 2%;
+    transition: 1s;
     &:hover {
         background-color: darken($menu3, 5);
     }
@@ -161,6 +164,7 @@ span.second_title_menu3{
 .menu4{
     background-color: $menu4;
     margin: 2% 2% 2% 2%;
+    transition: 1s;
     &:hover {
         background-color: darken($menu4, 5);
     }
@@ -256,7 +260,15 @@ li{
 
 .background_menu1{
     background-color: $menu1;
-    margin-bottom: 68px;
+    margin-bottom: 68px;    
+}
+.background_menu1 h3{
+    background: linear-gradient(to top, $menu1txt, 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover{
+        background-size: 100% 100%;
+    }
 }
 
 .background_menu1 section{

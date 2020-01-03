@@ -90,7 +90,7 @@
 }
 /*==extend==*/
 .menu4:hover a, .menu3:hover a, .menu2:hover a, .menu1:hover a {
-  transform: scale(1.9);
+  transform: scale(1.6);
 }
 
 a, h1 {
@@ -148,6 +148,7 @@ main {
 .menu1 {
   background-color: #fcdfdb;
   margin: 2% 2% 2% 2%;
+  transition: 1s;
 }
 .menu1:hover {
   background-color: #facac3;
@@ -174,6 +175,7 @@ i {
 .menu2 {
   background-color: #fff5fe;
   margin: 2% 2% 2% 2%;
+  transition: 1s;
 }
 .menu2:hover {
   background-color: #ffdcfb;
@@ -200,6 +202,7 @@ span.second_title_menu2 {
 .menu3 {
   background-color: #f9f9f9;
   margin: 2% 2% 2% 2%;
+  transition: 1s;
 }
 .menu3:hover {
   background-color: #ececec;
@@ -226,6 +229,7 @@ span.second_title_menu3 {
 .menu4 {
   background-color: #fdfffd;
   margin: 2% 2% 2% 2%;
+  transition: 1s;
 }
 .menu4:hover {
   background-color: #e4ffe4;
@@ -315,6 +319,15 @@ li {
 .background_menu1 {
   background-color: #fcdfdb;
   margin-bottom: 68px;
+}
+
+.background_menu1 h3 {
+  background: linear-gradient(to top, #3d1319, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.background_menu1 h3:hover {
+  background-size: 100% 100%;
 }
 
 .background_menu1 section {
