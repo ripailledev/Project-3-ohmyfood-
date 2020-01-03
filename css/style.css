@@ -303,15 +303,6 @@ footer h2 {
 }
 
 /*===========menu ============*/
-.background_menu1 section {
-  text-align: center;
-  font-family: "Devonshire-Regular";
-}
-
-.background_menu1 p {
-  font-family: "SegoePrint";
-}
-
 li {
   list-style-type: none;
   display: flex;
@@ -323,6 +314,27 @@ li {
 /*===========menu1.html============*/
 .background_menu1 {
   background-color: #fcdfdb;
+  margin-bottom: 68px;
+}
+
+.background_menu1 section {
+  text-align: center;
+  font-family: "Devonshire-Regular";
+}
+.background_menu1 section h2 {
+  font-size: xx-large;
+}
+.background_menu1 section h3 {
+  font-size: x-large;
+}
+
+.background_menu1 p {
+  font-family: "SegoePrint";
+}
+
+p.tarif {
+  font-family: "Devonshire-Regular";
+  font-size: large;
 }
 
 /*===========menu2.html============*/
