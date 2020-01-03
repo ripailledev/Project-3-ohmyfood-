@@ -308,6 +308,10 @@ footer h2 {
   font-family: "Devonshire-Regular";
 }
 
+.background_menu1 p {
+  font-family: "SegoePrint";
+}
+
 li {
   list-style-type: none;
   display: flex;
