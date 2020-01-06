@@ -93,7 +93,7 @@ $police2menu4:'Segoeprint';
         background-size: 100% 100%;}
 }
 
-@mixin gradient1($color1,$color2){
+@mixin gradient1($color1:yellow,$color2:green){
     background-image: linear-gradient(to right,($color1),($color2));
     background-clip: text;
     -webkit-background-clip: text;

@@ -98,13 +98,6 @@ a, h1 {
   text-decoration: none;
 }
 
-.background_menu4 h2, .background_menu3 h2 {
-  background-image: linear-gradient(to right, #e38a12, #8f5aff);
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
 /*==polices==*/
 /*============index.html================*/
 h1 {
@@ -376,16 +369,13 @@ li {
   background-color: #fff5fe;
   margin-bottom: 68px;
 }
-
 .background_menu2 h2 {
-  font-family: "Croissantone-Regular";
   font-size: xx-large;
   background-image: linear-gradient(to right, #e38a12, #8f5aff);
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-
 .background_menu2 h3 {
   font-size: x-large;
   background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
@@ -395,11 +385,10 @@ li {
 .background_menu2 h3:hover {
   background-size: 100% 100%;
 }
-
 .background_menu2 h3:before, .background_menu2 h3:after {
   content: "";
   width: 10%;
-  border-bottom: #8f5aff solid;
+  border-bottom: black solid;
   display: inline-block;
   vertical-align: middle;
 }
@@ -411,6 +400,13 @@ li {
   margin-right: -50%;
   margin-left: 3em;
 }
+.background_menu2 p {
+  font-family: "Arial";
+}
+.background_menu2 p.tarif {
+  font-family: "Croissantone-Regular";
+  font-size: large;
+}
 
 /*===========menu3.html============*/
 .background_menu3 {
@@ -419,15 +415,43 @@ li {
   background-color: #edefef;
   margin-bottom: 68px;
 }
-
 .background_menu3 h2 {
-  font-family: "Dancingscript-Regular";
   font-size: xx-large;
   background-image: linear-gradient(to right, #0230df, #0889fb);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-
 .background_menu3 h3 {
   font-size: x-large;
+  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.background_menu3 h3:hover {
+  background-size: 100% 100%;
+}
+.background_menu3 h3:before, .background_menu3 h3:after {
+  content: "";
+  width: 10%;
+  border-bottom: black solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+.background_menu3 h3:before {
+  margin-left: -50%;
+  margin-right: 3em;
+}
+.background_menu3 h3:after {
+  margin-right: -50%;
+  margin-left: 3em;
+}
+.background_menu3 p {
+  font-family: "Segoeprint";
+}
+.background_menu3 p.tarif {
+  font-family: "Dancingscript-Regular";
+  font-size: large;
 }
 
 /*===========menu4.html============*/
@@ -437,14 +461,43 @@ li {
   background-color: #fdfffd;
   margin-bottom: 68px;
 }
-
 .background_menu4 h2 {
-  font-family: "KaushanScript-Regular";
+  font-size: xx-large;
   background-image: linear-gradient(to right, #3e923a, #beff7f);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
-
 .background_menu4 h3 {
   font-size: x-large;
+  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.background_menu4 h3:hover {
+  background-size: 100% 100%;
+}
+.background_menu4 h3:before, .background_menu4 h3:after {
+  content: "";
+  width: 10%;
+  border-bottom: black solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+.background_menu4 h3:before {
+  margin-left: -50%;
+  margin-right: 3em;
+}
+.background_menu4 h3:after {
+  margin-right: -50%;
+  margin-left: 3em;
+}
+.background_menu4 p {
+  font-family: "Segoeprint";
+}
+.background_menu4 p.tarif {
+  font-family: "KaushanScript-Regular";
+  font-size: large;
 }
 
 /*# sourceMappingURL=style.css.map */

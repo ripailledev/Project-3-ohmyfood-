@@ -303,23 +303,19 @@ li{
     text-align: center;
     font-family: $police1menu2;
     background-color: $menu2;
-    margin-bottom: 68px;    
-}
+    margin-bottom: 68px;
 
-.background_menu2 h2{ 
-    font-family: $police1menu2;
-    font-size: xx-large;
-    @include gradient1($menu2txt1,$menu2txt2);                
-}
+    h2{
+        font-size: xx-large;
+        @include gradient1($menu2txt1,$menu2txt2);
+    }
 
-.background_menu2 h3{
-    font-size: x-large;
-    @include highlighted;
-}
-
-.background_menu2{
-    h3:before, h3:after{
-    @include line($menu2txt2);
+    h3{
+        font-size: x-large;
+        @include highlighted;    
+    }
+    h3:before, h3:after {
+        @include line;
     }
     h3:before{
         @include beforeline;
@@ -327,8 +323,14 @@ li{
     h3:after{
         @include afterline;
     }
-} 
-
+    p{
+        font-family: $police2menu2;
+    }
+    p.tarif{
+        font-family: $police1menu2;
+        font-size: large;
+    }    
+}
 
 /*===========menu3.html============*/
 
@@ -337,18 +339,33 @@ li{
     font-family: $police1menu3;
     background-color: $menu3b;
     margin-bottom: 68px;
-}
 
-.background_menu3 h2{
-    font-family: $police1menu3;
-    font-size: xx-large;
-    @extend %gradient;
-    background-image: linear-gradient(to right,($menu3txt1),($menu3txt2));
-}
-
-.background_menu3 h3{
-    font-size: x-large;     
+    h2{
+        font-size: xx-large;
+        @include gradient1($menu3txt1,$menu3txt2);
     }
+
+    h3{
+        font-size: x-large;
+        @include highlighted;    
+    }
+    h3:before, h3:after {
+        @include line;
+    }
+    h3:before{
+        @include beforeline;
+    }
+    h3:after{
+        @include afterline;
+    }
+    p{
+        font-family: $police2menu3;
+    }
+    p.tarif{
+        font-family: $police1menu3;
+        font-size: large;
+    }    
+}
 
 /*===========menu4.html============*/
 
@@ -357,15 +374,31 @@ li{
     font-family: $police1menu4;
     background-color: $menu4;
     margin-bottom: 68px;
-}
 
-.background_menu4 h2{
-    font-family: $police1menu4;
-    @extend %gradient;
-    background-image: linear-gradient(to right,($menu4txt1),($menu4txt2));
-}
+    h2{
+        font-size: xx-large;
+        @include gradient1($menu4txt1,$menu4txt2);
+    }
 
-.background_menu4 h3{
-    font-size: x-large;     
+    h3{
+        font-size: x-large;
+        @include highlighted;    
+    }
+    h3:before, h3:after {
+        @include line;
+    }
+    h3:before{
+        @include beforeline;
+    }
+    h3:after{
+        @include afterline;
+    }
+    p{
+        font-family: $police2menu4;
+    }
+    p.tarif{
+        font-family: $police1menu4;
+        font-size: large;
+    }    
 }
 
