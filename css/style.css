@@ -98,7 +98,7 @@ a, h1 {
   text-decoration: none;
 }
 
-.background_menu4 h2, .background_menu3 h2, .background_menu2 h2 {
+.background_menu4 h2, .background_menu3 h2 {
   background-image: linear-gradient(to right, #e38a12, #8f5aff);
   background-clip: text;
   -webkit-background-clip: text;
@@ -329,34 +329,22 @@ li {
   background-color: #fcdfdb;
   margin-bottom: 68px;
 }
-
 .background_menu1 h2 {
   font-size: xx-large;
 }
-
 .background_menu1 h3 {
   font-size: x-large;
-  background: linear-gradient(to top, #3d1319, 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
 .background_menu1 h3:hover {
   background-size: 100% 100%;
 }
-
-.background_menu1 p {
-  font-family: "PWMarker";
-}
-
-p.tarif {
-  font-family: "Devonshire-Regular";
-  font-size: large;
-}
-
 .background_menu1 h3:before, .background_menu1 h3:after {
   content: "";
   width: 10%;
-  border-bottom: #3d1319 solid;
+  border-bottom: black solid;
   display: inline-block;
   vertical-align: middle;
 }
@@ -367,6 +355,13 @@ p.tarif {
 .background_menu1 h3:after {
   margin-right: -50%;
   margin-left: 3em;
+}
+.background_menu1 p {
+  font-family: "PWMarker";
+}
+.background_menu1 p.tarif {
+  font-family: "Devonshire-Regular";
+  font-size: large;
 }
 
 .footer_menu1 p {
@@ -385,10 +380,36 @@ p.tarif {
 .background_menu2 h2 {
   font-family: "Croissantone-Regular";
   font-size: xx-large;
+  background-image: linear-gradient(to right, #e38a12, #8f5aff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
-.background_menu1 h3 {
+.background_menu2 h3 {
   font-size: x-large;
+  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.background_menu2 h3:hover {
+  background-size: 100% 100%;
+}
+
+.background_menu2 h3:before, .background_menu2 h3:after {
+  content: "";
+  width: 10%;
+  border-bottom: #8f5aff solid;
+  display: inline-block;
+  vertical-align: middle;
+}
+.background_menu2 h3:before {
+  margin-left: -50%;
+  margin-right: 3em;
+}
+.background_menu2 h3:after {
+  margin-right: -50%;
+  margin-left: 3em;
 }
 
 /*===========menu3.html============*/

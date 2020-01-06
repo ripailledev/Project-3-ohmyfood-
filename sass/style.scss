@@ -262,48 +262,32 @@ li{
     text-align: center;
     font-family: $police1menu1;
     background-color: $menu1;
-    margin-bottom: 68px;    
-}
+    margin-bottom: 68px;
 
-.background_menu1 h2{
-    font-size: xx-large;
-}
+    h2{
+        font-size: xx-large;
+    }
 
-.background_menu1 h3{
-    font-size: x-large;
-    background: linear-gradient(to top, $menu1txt, 2px, transparent 3px) no-repeat;
-    background-size: 0 100%;
-    transition: background-size 0.3s;
-    &:hover{
-    background-size: 100% 100%;
-    }    
-}
-
-.background_menu1 p{
-    font-family: $police2menu1;
-}
-
-p.tarif{
-    font-family: $police1menu1;
-    font-size: large;
-}
-
-.background_menu1{
+    h3{
+        font-size: x-large;
+        @include highlighted;    
+    }
     h3:before, h3:after {
-        content:'';
-        width:10%;
-        border-bottom:($menu1txt) solid;
-        display:inline-block;
-        vertical-align:middle;
+        @include line;
     }
     h3:before{
-        margin-left:-50%;
-        margin-right:3em
+        @include beforeline;
     }
     h3:after{
-        margin-right:-50%;
-        margin-left:3em;
+        @include afterline;
     }
+    p{
+        font-family: $police2menu1;
+    }
+    p.tarif{
+        font-family: $police1menu1;
+        font-size: large;
+    }    
 }
 
 .footer_menu1{
@@ -319,19 +303,32 @@ p.tarif{
     text-align: center;
     font-family: $police1menu2;
     background-color: $menu2;
-    margin-bottom: 68px;
-    
+    margin-bottom: 68px;    
 }
 
 .background_menu2 h2{ 
     font-family: $police1menu2;
     font-size: xx-large;
-    @extend %gradient;                
+    @include gradient1($menu2txt1,$menu2txt2);                
 }
 
-.background_menu1 h3{
-    font-size: x-large;     
+.background_menu2 h3{
+    font-size: x-large;
+    @include highlighted;
+}
+
+.background_menu2{
+    h3:before, h3:after{
+    @include line($menu2txt2);
     }
+    h3:before{
+        @include beforeline;
+    }
+    h3:after{
+        @include afterline;
+    }
+} 
+
 
 /*===========menu3.html============*/
 

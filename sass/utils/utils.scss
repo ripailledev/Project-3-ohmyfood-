@@ -66,6 +66,40 @@ $police2menu4:'Segoeprint';
     background-color: $green;
     color: $yellow;
 }
+
+@mixin line($color:black){
+    content:'';
+        width:10%;
+        border-bottom:($color) solid;
+        display:inline-block;
+        vertical-align:middle;
+}
+
+@mixin beforeline{
+    margin-left:-50%;
+    margin-right:3em
+}
+
+@mixin afterline{
+    margin-right:-50%;
+    margin-left:3em;
+}
+
+@mixin highlighted($color:black){
+    background: linear-gradient(to top, ($color), 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover{
+        background-size: 100% 100%;}
+}
+
+@mixin gradient1($color1,$color2){
+    background-image: linear-gradient(to right,($color1),($color2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 /*==keyframes==*/
 @keyframes typing{
        from{
@@ -107,11 +141,5 @@ $police2menu4:'Segoeprint';
     color: transparent;
 }
 
-%highlighted{
-    background: linear-gradient(to top, $menu1txt, 2px, transparent 3px) no-repeat;
-    background-size: 0 100%;
-    transition: background-size 0.3s;
-    &:hover{
-        background-size: 100% 100%;}
-}
+
 
