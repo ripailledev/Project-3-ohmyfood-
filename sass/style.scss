@@ -259,28 +259,24 @@ li{
 /*===========menu1.html============*/
 
 .background_menu1{
+    text-align: center;
+    font-family: $police1menu1;
     background-color: $menu1;
-    margin-bottom: 68px;    
+    margin-bottom: 68px;
+}
+
+.background_menu1 h2{
+    font-size: xx-large;
 }
 
 .background_menu1 h3{
+    font-size: x-large;
     background: linear-gradient(to top, $menu1txt, 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
     transition: background-size 0.3s;
     &:hover{
-        background-size: 100% 100%;
-    }
-}
-
-.background_menu1 section{
-    text-align: center;
-    font-family: $police1menu1;
-    h2{
-        font-size: xx-large;
-    }
-    h3{
-        font-size: x-large;
-    }
+    background-size: 100% 100%;
+    }    
 }
 
 .background_menu1 p{
@@ -320,23 +316,22 @@ p.tarif{
 /*===========menu2.html============*/
 
 .background_menu2{
-    background-color: $menu2;
-    h2{ 
-        font-family: $police1menu2;
-        @extend %gradient;               
-    }
-}
-
-.background_menu1 section{
     text-align: center;
     font-family: $police1menu2;
-    h2{
-        font-size: xx-large;
-    }
-    h3{
-        font-size: x-large;
-    }
+    background-color: $menu2;
+    margin-bottom: 68px;
 }
+
+.background_menu2 h2{ 
+    font-family: $police1menu2;
+    font-size: xx-large;
+    @extend %gradient;                
+}
+
+.background_menu1 h3{
+    font-size: x-large;
+    @extend %highlighted;
+    }
 
 /*===========menu3.html============*/
 
