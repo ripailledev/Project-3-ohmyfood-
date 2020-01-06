@@ -105,15 +105,6 @@ a, h1 {
   color: transparent;
 }
 
-.background_menu1 h3 {
-  background: linear-gradient(to top, #3d1319, 2px, transparent 3px) no-repeat;
-  background-size: 0 100%;
-  transition: background-size 0.3s;
-}
-.background_menu1 h3:hover {
-  background-size: 100% 100%;
-}
-
 /*==polices==*/
 /*============index.html================*/
 h1 {
@@ -327,8 +318,8 @@ li {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 25%;
+  margin-right: 25%;
 }
 
 /*===========menu1.html============*/
@@ -402,20 +393,37 @@ p.tarif {
 
 /*===========menu3.html============*/
 .background_menu3 {
+  text-align: center;
+  font-family: "Dancingscript-Regular";
   background-color: #edefef;
+  margin-bottom: 68px;
 }
+
 .background_menu3 h2 {
   font-family: "Dancingscript-Regular";
+  font-size: xx-large;
   background-image: linear-gradient(to right, #0230df, #0889fb);
+}
+
+.background_menu3 h3 {
+  font-size: x-large;
 }
 
 /*===========menu4.html============*/
 .background_menu4 {
+  text-align: center;
+  font-family: "KaushanScript-Regular";
   background-color: #fdfffd;
+  margin-bottom: 68px;
 }
+
 .background_menu4 h2 {
   font-family: "KaushanScript-Regular";
   background-image: linear-gradient(to right, #3e923a, #beff7f);
+}
+
+.background_menu4 h3 {
+  font-size: x-large;
 }
 
 /*# sourceMappingURL=style.css.map */
