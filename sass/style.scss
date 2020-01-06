@@ -86,12 +86,12 @@ main{
 }
 
 h2.first_title_menu1{
-    font-family: 'Devonshire-Regular';
+    font-family: $police1menu1;
     color: $menu1txt;   
     }
 
 span.second_title_menu1{
-    font-family: 'PWMarker';
+    font-family: $police2menu1;
     color: $menu1txt;
 }
 
@@ -124,11 +124,11 @@ i{
 }
 
 h2.first_title_menu2{
-    font-family: 'Croissantone-Regular',sans-serif;
+    font-family: $police1menu2,sans-serif;
 }
 
 span.second_title_menu2{
-    font-family: 'Arial';
+    font-family: $police2menu2;
 }
 
 /*==menu3==*/
@@ -153,10 +153,10 @@ span.second_title_menu2{
 }
 
 h2.first_title_menu3{
-    font-family: 'Dancingscript-Regular';
+    font-family: $police1menu3;
 }
 span.second_title_menu3{
-    font-family: 'Segoeprint';
+    font-family: $police2menu3;
 }
 
 /*==menu4==*/
@@ -181,11 +181,11 @@ span.second_title_menu3{
 }
 
 .first_title_menu4{
-    font-family: 'KaushanScript-Regular';    
+    font-family: $police1menu4;    
 }
 
 .second_title_menu4{
-    font-family: 'Segoeprint';
+    font-family: $police2menu4;
 }
 
 /*==prochainement==*/
@@ -262,6 +262,7 @@ li{
     background-color: $menu1;
     margin-bottom: 68px;    
 }
+
 .background_menu1 h3{
     background: linear-gradient(to top, $menu1txt, 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
@@ -273,7 +274,7 @@ li{
 
 .background_menu1 section{
     text-align: center;
-    font-family: 'Devonshire-Regular';
+    font-family: $police1menu1;
     h2{
         font-size: xx-large;
     }
@@ -283,11 +284,11 @@ li{
 }
 
 .background_menu1 p{
-    font-family: 'SegoePrint';
+    font-family: $police2menu1;
 }
 
 p.tarif{
-    font-family: 'Devonshire-Regular';
+    font-family: $police1menu1;
     font-size: large;
 }
 
@@ -311,7 +312,7 @@ p.tarif{
 
 .footer_menu1{
     p{
-        font-family: 'Devonshire-Regular';
+        font-family: $police1menu1;
         font-size: xx-large;
     }
 }
@@ -320,16 +321,41 @@ p.tarif{
 
 .background_menu2{
     background-color: $menu2;
+    h2{ 
+        font-family: $police1menu2;
+        @extend %gradient;               
+    }
+}
+
+.background_menu1 section{
+    text-align: center;
+    font-family: $police1menu2;
+    h2{
+        font-size: xx-large;
+    }
+    h3{
+        font-size: x-large;
+    }
 }
 
 /*===========menu3.html============*/
 
 .background_menu3{
     background-color: $menu3b;
+    h2{
+        font-family: $police1menu3;
+        @extend %gradient;
+        background-image: linear-gradient(to right,($menu3txt1),($menu3txt2));
+    }
 }
 
 /*===========menu4.html============*/
 
 .background_menu4{
     background-color: $menu4;
+    h2{
+        font-family: $police1menu4;
+        @extend %gradient;
+        background-image: linear-gradient(to right,($menu4txt1),($menu4txt2));
+    }
 }

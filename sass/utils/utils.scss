@@ -30,26 +30,37 @@
 $green: #579c87;
 $yellow:#fdcb46;
 $greenshadow: #a1c181;
+
        //menu1
 $menu1: #fcdfdb;
 $note1: #f05261;
 $note2: #f6916a;
 $menu1txt:#3d1319;
+$police1menu1:'Devonshire-Regular';
+$police2menu1:'PWMarker';
        //menu2
 $menu2: #fff5fe;
 $menu2txt1: #e38a12;
 $menu2txt2: #8f5aff;
 $menu2txt3: #c77412;
+$police1menu2:'Croissantone-Regular';
+$police2menu2:'Arial';
        //menu3
 $menu3: #f9f9f9;
 $menu3b: #edefef;
 $menu3txt1: #0230df;
 $menu3txt2: #0889fb;
+$police1menu3:'Dancingscript-Regular';
+$police2menu3:'Segoeprint';
+
        //menu4
 $menu4: #fdfffd;
 $menu4txt1:#3e923a;
 $menu4txt2: #beff7f;
 $menu4txt3: #72bf56;
+$police1menu4:'KaushanScript-Regular';
+$police2menu4:'Segoeprint';
+
 /*==============mixins============*/
 @mixin greenyellow {
     background-color: $green;
@@ -89,4 +100,18 @@ $menu4txt3: #72bf56;
     text-decoration: none;
 }
 
+%gradient{
+    background-image: linear-gradient(to right,($menu2txt1),($menu2txt2));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+%highlighted{
+    background: linear-gradient(to top, $menu1txt, 2px, transparent 3px) no-repeat;
+    background-size: 0 100%;
+    transition: background-size 0.3s;
+    &:hover{
+        background-size: 100% 100%;
+}
 

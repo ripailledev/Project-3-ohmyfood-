@@ -98,6 +98,13 @@ a, h1 {
   text-decoration: none;
 }
 
+.background_menu4 h2, .background_menu3 h2, .background_menu2 h2 {
+  background-image: linear-gradient(to right, #e38a12, #8f5aff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
 /*==polices==*/
 /*============index.html================*/
 h1 {
@@ -342,7 +349,7 @@ li {
 }
 
 .background_menu1 p {
-  font-family: "SegoePrint";
+  font-family: "PWMarker";
 }
 
 p.tarif {
@@ -375,15 +382,37 @@ p.tarif {
 .background_menu2 {
   background-color: #fff5fe;
 }
+.background_menu2 h2 {
+  font-family: "Croissantone-Regular";
+}
+
+.background_menu1 section {
+  text-align: center;
+  font-family: "Croissantone-Regular";
+}
+.background_menu1 section h2 {
+  font-size: xx-large;
+}
+.background_menu1 section h3 {
+  font-size: x-large;
+}
 
 /*===========menu3.html============*/
 .background_menu3 {
   background-color: #edefef;
 }
+.background_menu3 h2 {
+  font-family: "Dancingscript-Regular";
+  background-image: linear-gradient(to right, #0230df, #0889fb);
+}
 
 /*===========menu4.html============*/
 .background_menu4 {
   background-color: #fdfffd;
+}
+.background_menu4 h2 {
+  font-family: "KaushanScript-Regular";
+  background-image: linear-gradient(to right, #3e923a, #beff7f);
 }
 
 /*# sourceMappingURL=style.css.map */
