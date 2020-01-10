@@ -271,6 +271,11 @@ li{
     h3{
         font-size: x-large;
         display: inline-block;
+        margin-top: auto;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: auto;
+
         @include highlighted;    
     }
         
@@ -282,10 +287,6 @@ li{
         font-size: large;
     }    
 }
-div.left{
-    background-color: black;
-    -webkit-clip-path-: polygon(57% 96%, 71% 97%, 87% 96%, 96% 96%, 100% 100%, 49% 99%, 0 100%, 5% 96%, 18% 97%, 38% 95%);
-}
 
 .footer_menu1{
     p{
@@ -294,6 +295,21 @@ div.left{
     }
 }
 
+.entrée-menu1{    
+ display: flex;
+ flex-direction: row;
+}
+
+.line-left{
+    height: 600px;
+    width: 600px;
+    margin: 0;
+}
+.line-right{
+    height: 600px;
+    width: 600px;
+    margin: 0;
+}
 /*===========menu2.html============*/
 
 .background_menu2{
