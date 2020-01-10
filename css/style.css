@@ -327,6 +327,7 @@ li {
 }
 .background_menu1 h3 {
   font-size: x-large;
+  display: inline-block;
   background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
@@ -334,27 +335,17 @@ li {
 .background_menu1 h3:hover {
   background-size: 100% 100%;
 }
-.background_menu1 h3:before, .background_menu1 h3:after {
-  content: "";
-  width: 10%;
-  border-bottom: black solid;
-  display: inline-block;
-  vertical-align: middle;
-}
-.background_menu1 h3:before {
-  margin-left: -50%;
-  margin-right: 3em;
-}
-.background_menu1 h3:after {
-  margin-right: -50%;
-  margin-left: 3em;
-}
 .background_menu1 p {
   font-family: "PWMarker";
 }
 .background_menu1 p.tarif {
   font-family: "Devonshire-Regular";
   font-size: large;
+}
+
+div.left {
+  background-color: black;
+  -webkit-clip-path-: polygon(57% 96%, 71% 97%, 87% 96%, 96% 96%, 100% 100%, 49% 99%, 0 100%, 5% 96%, 18% 97%, 38% 95%);
 }
 
 .footer_menu1 p {
@@ -378,27 +369,13 @@ li {
 }
 .background_menu2 h3 {
   font-size: x-large;
+  display: inline-block;
   background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
 .background_menu2 h3:hover {
   background-size: 100% 100%;
-}
-.background_menu2 h3:before, .background_menu2 h3:after {
-  content: "";
-  width: 10%;
-  border-bottom: black solid;
-  display: inline-block;
-  vertical-align: middle;
-}
-.background_menu2 h3:before {
-  margin-left: -50%;
-  margin-right: 3em;
-}
-.background_menu2 h3:after {
-  margin-right: -50%;
-  margin-left: 3em;
 }
 .background_menu2 p {
   font-family: "Arial";
@@ -424,27 +401,13 @@ li {
 }
 .background_menu3 h3 {
   font-size: x-large;
+  display: inline-block;
   background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
 .background_menu3 h3:hover {
   background-size: 100% 100%;
-}
-.background_menu3 h3:before, .background_menu3 h3:after {
-  content: "";
-  width: 10%;
-  border-bottom: black solid;
-  display: inline-block;
-  vertical-align: middle;
-}
-.background_menu3 h3:before {
-  margin-left: -50%;
-  margin-right: 3em;
-}
-.background_menu3 h3:after {
-  margin-right: -50%;
-  margin-left: 3em;
 }
 .background_menu3 p {
   font-family: "Segoeprint";
@@ -470,27 +433,13 @@ li {
 }
 .background_menu4 h3 {
   font-size: x-large;
+  display: inline-block;
   background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
 .background_menu4 h3:hover {
   background-size: 100% 100%;
-}
-.background_menu4 h3:before, .background_menu4 h3:after {
-  content: "";
-  width: 10%;
-  border-bottom: black solid;
-  display: inline-block;
-  vertical-align: middle;
-}
-.background_menu4 h3:before {
-  margin-left: -50%;
-  margin-right: 3em;
-}
-.background_menu4 h3:after {
-  margin-right: -50%;
-  margin-left: 3em;
 }
 .background_menu4 p {
   font-family: "Segoeprint";

@@ -270,17 +270,10 @@ li{
 
     h3{
         font-size: x-large;
+        display: inline-block;
         @include highlighted;    
     }
-    h3:before, h3:after {
-        @include line;
-    }
-    h3:before{
-        @include beforeline;
-    }
-    h3:after{
-        @include afterline;
-    }
+        
     p{
         font-family: $police2menu1;
     }
@@ -288,6 +281,10 @@ li{
         font-family: $police1menu1;
         font-size: large;
     }    
+}
+div.left{
+    background-color: black;
+    -webkit-clip-path-: polygon(57% 96%, 71% 97%, 87% 96%, 96% 96%, 100% 100%, 49% 99%, 0 100%, 5% 96%, 18% 97%, 38% 95%);
 }
 
 .footer_menu1{
@@ -312,17 +309,10 @@ li{
 
     h3{
         font-size: x-large;
+        display: inline-block;
         @include highlighted;    
     }
-    h3:before, h3:after {
-        @include line;
-    }
-    h3:before{
-        @include beforeline;
-    }
-    h3:after{
-        @include afterline;
-    }
+    
     p{
         font-family: $police2menu2;
     }
@@ -347,17 +337,10 @@ li{
 
     h3{
         font-size: x-large;
+        display: inline-block;
         @include highlighted;    
     }
-    h3:before, h3:after {
-        @include line;
-    }
-    h3:before{
-        @include beforeline;
-    }
-    h3:after{
-        @include afterline;
-    }
+    
     p{
         font-family: $police2menu3;
     }
@@ -382,17 +365,10 @@ li{
 
     h3{
         font-size: x-large;
+        display: inline-block;
         @include highlighted;    
     }
-    h3:before, h3:after {
-        @include line;
-    }
-    h3:before{
-        @include beforeline;
-    }
-    h3:after{
-        @include afterline;
-    }
+    
     p{
         font-family: $police2menu4;
     }
