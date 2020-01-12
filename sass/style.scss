@@ -294,21 +294,20 @@ li{
         font-size: xx-large;
     }
 }
-.entrée-menu1{
-    display: flex;
-    align-items: center;    
-    margin: 0 auto;
-    justify-content: space-between;
-    max-width: 700px;
+.entree-menu1{
+    @include styleline;
+}
+
+.plat-menu1{
+    @include styleline;
+}
+
+.dessert-menu1{
+    @include styleline;
 }
 
 .line{
     width: 200px;
-}
-
-
-.line--rotate{
-    transform: rotate(180);
 }
 
 /*===========menu2.html============*/

@@ -99,7 +99,13 @@ $police2menu4:'Segoeprint';
     -webkit-background-clip: text;
     color: transparent;
 }
-
+@mixin styleline {
+    display: flex;
+    align-items: center;    
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 700px;    
+}
 /*==keyframes==*/
 @keyframes typing{
        from{

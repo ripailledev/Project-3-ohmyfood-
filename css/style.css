@@ -1,4 +1,3 @@
-@charset "UTF-8";
 /*=====================sommaire====================*/
 /*============index.html==============*/
 /*== 1 import==*/
@@ -353,20 +352,32 @@ li {
   font-size: xx-large;
 }
 
-.entrée-menu1 {
+.entree-menu1 {
   display: flex;
   align-items: center;
   margin: 0 auto;
-  justify-content: space-between;
+  justify-content: space-around;
+  max-width: 700px;
+}
+
+.plat-menu1 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
+  max-width: 700px;
+}
+
+.dessert-menu1 {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-around;
   max-width: 700px;
 }
 
 .line {
   width: 200px;
-}
-
-.line--rotate {
-  transform: rotate(180);
 }
 
 /*===========menu2.html============*/
