@@ -308,6 +308,24 @@ li{
 
 .line{
     width: 200px;
+    &--1{
+        fill: $menu1txt;
+    }
+    &--2{
+        fill: $menu2txt1;
+        color: $menu2txt1;
+    }
+    &--2b{
+        fill: $menu2txt2;
+        color: $menu2txt2;
+    }
+    &--2c{
+        fill: $menu3txt1;
+        color: $menu3txt1;
+    }
+    &--4{
+        fill: linear-gradient(to right,($menu4txt1),($menu4txt2));
+    }
 }
 
 /*===========menu2.html============*/
@@ -338,6 +356,18 @@ li{
     }    
 }
 
+.entree-menu2{
+    @include styleline;
+}
+
+.plat-menu2{
+    @include styleline;
+}
+
+.dessert-menu2{
+    @include styleline;
+}
+
 /*===========menu3.html============*/
 
 .background_menu3{
@@ -364,6 +394,17 @@ li{
         font-family: $police1menu3;
         font-size: large;
     }    
+}
+.entree-menu3{
+    @include styleline;
+}
+
+.plat-menu3{
+    @include styleline;
+}
+
+.dessert-menu3{
+    @include styleline;
 }
 
 /*===========menu4.html============*/
@@ -392,5 +433,17 @@ li{
         font-family: $police1menu4;
         font-size: large;
     }    
+}
+
+.entree-menu4{
+    @include styleline;
+}
+
+.plat-menu4{
+    @include styleline;
+}
+
+.dessert-menu4{
+    @include styleline;
 }
 
