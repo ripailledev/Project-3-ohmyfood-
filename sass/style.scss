@@ -1,26 +1,28 @@
 /*=====================sommaire====================*/
-/*============index.html==============*/
-    /*== 1 import==*/
-    /*== 2 index==*/
-    /*== 3 header==*/
-    /*== 4 main==*/
-    /*== 5 menu1==*/
-    /*== 6 menu2==*/
-    /*== 7 menu3==*/
-    /*== 8 menu4==*/
-    /*== 9 prochainement==*/
-    /*== 10 footer==*/
+    /*==import==*/
+/*============index.html==============*/    
+    /*==index==*/
+    /*==header==*/
+    /*==main==*/
+    /*==menu1==*/
+    /*==menu2==*/
+    /*==menu3==*/
+    /*==menu4==*/
+    /*==prochainement==*/
+    /*==footer==*/
 /*===========menu============*/    
 /*===========menu1.html============*/
 /*===========menu2.html============*/
 /*===========menu3.html============*/
 /*===========menu4.html============*/
+/*==barre de séparation==*/
 
 
 
 /*=================import==============*/
 
 @import "./utils/utils.scss";
+@import "./media-queries/mediaqueries.scss";
 
 /*==polices==*/
 
@@ -307,36 +309,6 @@ li{
     @include styleline;
 }
 
-.line{
-    width: 200px;
-    &--1{
-        fill: $menu1txt;
-    }
-    &--2{
-        fill: $menu2txt1;
-        color: $menu2txt1;
-    }
-    &--2b{
-        fill: $menu2txt2;
-        color: $menu2txt2;
-    }
-    &--2c{
-        fill: $menu3txt1;
-        color: $menu3txt1;
-    }
-    &--3{
-        fill:($menu3txt1)
-    }
-    &--3b{
-        fill: ($menu3txt2);
-    }
-    &--3c{
-        fill: darken($menu3txt2, 1);
-            }
-    &--4{
-        fill: ($menu4txt2);
-    }
-}
 
 /*===========menu2.html============*/
 
@@ -461,4 +433,35 @@ li{
 }
 .header_menu4 h2{
    @include gradient1;
+}
+/*==barre de décoration==*/
+.line{
+    width: 200px;
+    &--1{
+        fill: $menu1txt;
+    }
+    &--2{
+        fill: $menu2txt1;
+        color: $menu2txt1;
+    }
+    &--2b{
+        fill: $menu2txt2;
+        color: $menu2txt2;
+    }
+    &--2c{
+        fill: $menu3txt1;
+        color: $menu3txt1;
+    }
+    &--3{
+        fill:($menu3txt1)
+    }
+    &--3b{
+        fill: ($menu3txt2);
+    }
+    &--3c{
+        fill: darken($menu3txt2, 1);
+            }
+    &--4{
+        fill: ($menu4txt2);
+    }
 }

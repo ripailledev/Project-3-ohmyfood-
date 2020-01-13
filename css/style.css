@@ -1,20 +1,22 @@
+@charset "UTF-8";
 /*=====================sommaire====================*/
+/*==import==*/
 /*============index.html==============*/
-/*== 1 import==*/
-/*== 2 index==*/
-/*== 3 header==*/
-/*== 4 main==*/
-/*== 5 menu1==*/
-/*== 6 menu2==*/
-/*== 7 menu3==*/
-/*== 8 menu4==*/
-/*== 9 prochainement==*/
-/*== 10 footer==*/
+/*==index==*/
+/*==header==*/
+/*==main==*/
+/*==menu1==*/
+/*==menu2==*/
+/*==menu3==*/
+/*==menu4==*/
+/*==prochainement==*/
+/*==footer==*/
 /*===========menu============*/
 /*===========menu1.html============*/
 /*===========menu2.html============*/
 /*===========menu3.html============*/
 /*===========menu4.html============*/
+/*==barre de séparation==*/
 /*=================import==============*/
 /*==polices==*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
@@ -98,6 +100,7 @@ a, h1 {
   text-decoration: none;
 }
 
+/*==media-queries==*/
 /*==polices==*/
 /*============index.html================*/
 h1 {
@@ -377,37 +380,6 @@ li {
   max-width: 700px;
 }
 
-.line {
-  width: 200px;
-}
-.line--1 {
-  fill: #3d1319;
-}
-.line--2 {
-  fill: #e38a12;
-  color: #e38a12;
-}
-.line--2b {
-  fill: #8f5aff;
-  color: #8f5aff;
-}
-.line--2c {
-  fill: #0230df;
-  color: #0230df;
-}
-.line--3 {
-  fill: #0230df;
-}
-.line--3b {
-  fill: #0889fb;
-}
-.line--3c {
-  fill: #0487fa;
-}
-.line--4 {
-  fill: #beff7f;
-}
-
 /*===========menu2.html============*/
 .background_menu2 {
   text-align: center;
@@ -584,6 +556,38 @@ li {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
+}
+
+/*==barre de décoration==*/
+.line {
+  width: 200px;
+}
+.line--1 {
+  fill: #3d1319;
+}
+.line--2 {
+  fill: #e38a12;
+  color: #e38a12;
+}
+.line--2b {
+  fill: #8f5aff;
+  color: #8f5aff;
+}
+.line--2c {
+  fill: #0230df;
+  color: #0230df;
+}
+.line--3 {
+  fill: #0230df;
+}
+.line--3b {
+  fill: #0889fb;
+}
+.line--3c {
+  fill: #0487fa;
+}
+.line--4 {
+  fill: #beff7f;
 }
 
 /*# sourceMappingURL=style.css.map */
