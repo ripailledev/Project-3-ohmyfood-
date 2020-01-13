@@ -491,6 +491,9 @@ li{
         fill: darken($menu3txt2, 1);
             }
     &--4{
-        fill: ($menu4txt2);
+        fill: url(#mygradient);
+    }
+    &--4b{
+        fill: url(#mygradient2);
     }
 }

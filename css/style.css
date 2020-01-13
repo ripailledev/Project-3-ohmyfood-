@@ -661,7 +661,10 @@ li {
   fill: #0487fa;
 }
 .line--4 {
-  fill: #beff7f;
+  fill: url(#mygradient);
+}
+.line--4b {
+  fill: url(#mygradient2);
 }
 
 /*# sourceMappingURL=style.css.map */
