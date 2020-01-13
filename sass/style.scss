@@ -279,7 +279,7 @@ li{
         margin-right: 5%;
         margin-bottom: auto;
 
-        @include highlighted;    
+        @include highlighted($color:$menu1txt);    
     }
         
     p{
@@ -327,7 +327,7 @@ li{
     h3{
         font-size: x-large;
         display: inline-block;
-        @include highlighted;    
+            
     }
     
     p{
@@ -341,14 +341,23 @@ li{
 
 .entree-menu2{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu2txt1);
+    }
 }
 
 .plat-menu2{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu2txt2);
+    }
 }
 
 .dessert-menu2{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu3txt1);
+    }
 }
 
 /*===========menu3.html============*/
@@ -367,8 +376,7 @@ li{
 
     h3{
         font-size: x-large;
-        display: inline-block;
-        @include highlighted;    
+        display: inline-block;   
     }
     
     p{
@@ -381,14 +389,23 @@ li{
 }
 .entree-menu3{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu3txt1);
+    }
 }
 
 .plat-menu3{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu3txt2);
+    }
 }
 
 .dessert-menu3{
     @include styleline;
+    h3{
+        @include highlighted($color:darken ($menu3txt1, 2));
+    }
 }
 
 /*===========menu4.html============*/
@@ -422,19 +439,31 @@ li{
 
 .entree-menu4{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu4txt2);
+    }
 }
 
 .plat-menu4{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu4txt2);
+    }
 }
 
 .dessert-menu4{
     @include styleline;
+    h3{
+        @include highlighted($color:$menu4txt2);
+    }
 }
+
 .header_menu4 h2{
    @include gradient1;
 }
+
 /*==barre de décoration==*/
+
 .line{
     width: 200px;
     &--1{

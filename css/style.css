@@ -101,6 +101,20 @@ a, h1 {
 }
 
 /*==media-queries==*/
+/*==mobiles portrait==*/
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+  svg {
+    width: 10px;
+  }
+  svg ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+/*==mobiles landscape==*/
+/*==tablettes==*/
+/*==desktops==*/
+/*==large desktops==*/
 /*==polices==*/
 /*============index.html================*/
 h1 {
@@ -336,7 +350,7 @@ li {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: auto;
-  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #3d1319, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }
@@ -398,12 +412,6 @@ li {
 .background_menu2 h3 {
   font-size: x-large;
   display: inline-block;
-  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
-  background-size: 0 100%;
-  transition: background-size 0.3s;
-}
-.background_menu2 h3:hover {
-  background-size: 100% 100%;
 }
 .background_menu2 p {
   font-family: "Arial";
@@ -420,6 +428,14 @@ li {
   justify-content: space-around;
   max-width: 700px;
 }
+.entree-menu2 h3 {
+  background: linear-gradient(to top, #e38a12, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.entree-menu2 h3:hover {
+  background-size: 100% 100%;
+}
 
 .plat-menu2 {
   display: flex;
@@ -428,6 +444,14 @@ li {
   justify-content: space-around;
   max-width: 700px;
 }
+.plat-menu2 h3 {
+  background: linear-gradient(to top, #8f5aff, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.plat-menu2 h3:hover {
+  background-size: 100% 100%;
+}
 
 .dessert-menu2 {
   display: flex;
@@ -435,6 +459,14 @@ li {
   margin: 0 auto;
   justify-content: space-around;
   max-width: 700px;
+}
+.dessert-menu2 h3 {
+  background: linear-gradient(to top, #0230df, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.dessert-menu2 h3:hover {
+  background-size: 100% 100%;
 }
 
 /*===========menu3.html============*/
@@ -455,12 +487,6 @@ li {
 .background_menu3 h3 {
   font-size: x-large;
   display: inline-block;
-  background: linear-gradient(to top, black, 2px, transparent 3px) no-repeat;
-  background-size: 0 100%;
-  transition: background-size 0.3s;
-}
-.background_menu3 h3:hover {
-  background-size: 100% 100%;
 }
 .background_menu3 p {
   font-family: "Segoeprint";
@@ -477,6 +503,14 @@ li {
   justify-content: space-around;
   max-width: 700px;
 }
+.entree-menu3 h3 {
+  background: linear-gradient(to top, #0230df, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.entree-menu3 h3:hover {
+  background-size: 100% 100%;
+}
 
 .plat-menu3 {
   display: flex;
@@ -485,6 +519,14 @@ li {
   justify-content: space-around;
   max-width: 700px;
 }
+.plat-menu3 h3 {
+  background: linear-gradient(to top, #0889fb, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.plat-menu3 h3:hover {
+  background-size: 100% 100%;
+}
 
 .dessert-menu3 {
   display: flex;
@@ -492,6 +534,14 @@ li {
   margin: 0 auto;
   justify-content: space-around;
   max-width: 700px;
+}
+.dessert-menu3 h3 {
+  background: linear-gradient(to top, darken #0230df, 2, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.dessert-menu3 h3:hover {
+  background-size: 100% 100%;
 }
 
 /*===========menu4.html============*/
@@ -534,6 +584,14 @@ li {
   justify-content: space-around;
   max-width: 700px;
 }
+.entree-menu4 h3 {
+  background: linear-gradient(to top, #beff7f, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.entree-menu4 h3:hover {
+  background-size: 100% 100%;
+}
 
 .plat-menu4 {
   display: flex;
@@ -542,6 +600,14 @@ li {
   justify-content: space-around;
   max-width: 700px;
 }
+.plat-menu4 h3 {
+  background: linear-gradient(to top, #beff7f, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.plat-menu4 h3:hover {
+  background-size: 100% 100%;
+}
 
 .dessert-menu4 {
   display: flex;
@@ -549,6 +615,14 @@ li {
   margin: 0 auto;
   justify-content: space-around;
   max-width: 700px;
+}
+.dessert-menu4 h3 {
+  background: linear-gradient(to top, #beff7f, 2px, transparent 3px) no-repeat;
+  background-size: 0 100%;
+  transition: background-size 0.3s;
+}
+.dessert-menu4 h3:hover {
+  background-size: 100% 100%;
 }
 
 .header_menu4 h2 {
