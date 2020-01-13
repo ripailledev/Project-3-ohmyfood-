@@ -265,7 +265,7 @@ li{
     margin-bottom: 68px;
 
     h2{
-        font-size: xx-large;
+        font-size: 60px;
     }
 
     h3{
@@ -323,8 +323,17 @@ li{
         fill: $menu3txt1;
         color: $menu3txt1;
     }
+    &--3{
+        fill:($menu3txt1)
+    }
+    &--3b{
+        fill: ($menu3txt2);
+    }
+    &--3c{
+        fill: darken($menu3txt2, 1);
+            }
     &--4{
-        fill: linear-gradient(to right,($menu4txt1),($menu4txt2));
+        fill: ($menu4txt2);
     }
 }
 
@@ -337,7 +346,7 @@ li{
     margin-bottom: 68px;
 
     h2{
-        font-size: xx-large;
+        font-size: 60px;
         @include gradient1($menu2txt1,$menu2txt2);
     }
 
@@ -377,7 +386,7 @@ li{
     margin-bottom: 68px;
 
     h2{
-        font-size: xx-large;
+        font-size:60px;
         @include gradient1($menu3txt1,$menu3txt2);
     }
 
@@ -416,7 +425,7 @@ li{
     margin-bottom: 68px;
 
     h2{
-        font-size: xx-large;
+        font-size: 60px;
         @include gradient1($menu4txt1,$menu4txt2);
     }
 
@@ -446,4 +455,6 @@ li{
 .dessert-menu4{
     @include styleline;
 }
-
+.header_menu4 h2{
+   @include gradient1;
+}

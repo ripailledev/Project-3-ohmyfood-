@@ -323,7 +323,7 @@ li {
   margin-bottom: 68px;
 }
 .background_menu1 h2 {
-  font-size: xx-large;
+  font-size: 60px;
 }
 .background_menu1 h3 {
   font-size: x-large;
@@ -394,8 +394,17 @@ li {
   fill: #0230df;
   color: #0230df;
 }
+.line--3 {
+  fill: #0230df;
+}
+.line--3b {
+  fill: #0889fb;
+}
+.line--3c {
+  fill: #0487fa;
+}
 .line--4 {
-  fill: linear-gradient(to right, #3e923a, #beff7f);
+  fill: #beff7f;
 }
 
 /*===========menu2.html============*/
@@ -406,7 +415,7 @@ li {
   margin-bottom: 68px;
 }
 .background_menu2 h2 {
-  font-size: xx-large;
+  font-size: 60px;
   background-image: linear-gradient(to right, #e38a12, #8f5aff);
   background-clip: text;
   -webkit-background-clip: text;
@@ -462,7 +471,7 @@ li {
   margin-bottom: 68px;
 }
 .background_menu3 h2 {
-  font-size: xx-large;
+  font-size: 60px;
   background-image: linear-gradient(to right, #0230df, #0889fb);
   background-clip: text;
   -webkit-background-clip: text;
@@ -518,7 +527,7 @@ li {
   margin-bottom: 68px;
 }
 .background_menu4 h2 {
-  font-size: xx-large;
+  font-size: 60px;
   background-image: linear-gradient(to right, #3e923a, #beff7f);
   background-clip: text;
   -webkit-background-clip: text;
@@ -564,6 +573,13 @@ li {
   margin: 0 auto;
   justify-content: space-around;
   max-width: 700px;
+}
+
+.header_menu4 h2 {
+  background-image: linear-gradient(to right, yellow, green);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
