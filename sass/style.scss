@@ -266,6 +266,7 @@ li{
 
     h2{
         font-size: 60px;
+        margin: 0 auto;
     }
 
     h3{
@@ -348,6 +349,7 @@ li{
     h2{
         font-size: 60px;
         @include gradient1($menu2txt1,$menu2txt2);
+        margin: 0 auto;
     }
 
     h3{
@@ -388,6 +390,7 @@ li{
     h2{
         font-size:60px;
         @include gradient1($menu3txt1,$menu3txt2);
+        margin: 0 auto;
     }
 
     h3{
@@ -427,6 +430,7 @@ li{
     h2{
         font-size: 60px;
         @include gradient1($menu4txt1,$menu4txt2);
+        margin: 0 auto;
     }
 
     h3{
