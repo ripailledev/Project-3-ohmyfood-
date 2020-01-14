@@ -1,19 +1,27 @@
 /*==media-queries==*/
-@media only screen and (max-width: 320px){
+
+@media (max-width: 320px)
+{
 
 }
 /*==mobiles portrait==*/
-@media only screen and (min-width: 321px) and (max-width:480px){
-svg{
-    width: 10px;
-ul{
-    display: flex;
-    flex-direction: column;
-}
-}    
+@media (min-width: 321px) and (max-width:480px)
+{
+    body{
+        background-color: red;
+    }
+    svg
+    {
+        width: 10px;
+        ul
+        {
+            display: flex;
+            flex-direction: column;
+        }
+    }    
 }
 /*==mobiles landscape==*/
-@media only screen and (min-width: 481px) and (max-width:720px){
+@media (min-width: 481px) and (max-width:720px){
     
 }
 /*==tablettes==*/
