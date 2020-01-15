@@ -101,24 +101,9 @@ a, h1 {
 }
 
 /*==media-queries==*/
-/*==mobiles portrait==*/
-@media (min-width: 321px) and (max-width: 480px) {
-  body {
-    background-color: red;
-  }
-
-  svg {
-    width: 10px;
-  }
-  svg ul {
-    display: flex;
-    flex-direction: column;
-  }
-}
-/*==mobiles landscape==*/
-/*==tablettes==*/
-/*==desktops==*/
-/*==large desktops==*/
+/*==small devices==*/
+/*==medium devices==*/
+/*==large devices==*/
 /*==polices==*/
 /*============index.html================*/
 h1 {
