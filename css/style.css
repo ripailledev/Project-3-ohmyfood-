@@ -100,10 +100,11 @@ a, h1 {
   text-decoration: none;
 }
 
-/*==media-queries==*/
-/*==small devices==*/
-/*==medium devices==*/
-/*==large devices==*/
+@media (max-width: 576px) {
+  body {
+    background-color: red;
+  }
+}
 /*==polices==*/
 /*============index.html================*/
 h1 {
