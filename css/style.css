@@ -100,9 +100,39 @@ a, h1 {
   text-decoration: none;
 }
 
+/*==media queries==*/
+/*==small device==*/
 @media (max-width: 576px) {
   body {
     background-color: red;
+  }
+
+  main {
+    margin-bottom: 150px;
+  }
+
+  ul {
+    display: flex;
+  }
+}
+/*==medium device==*/
+@media (min-width: 577px) and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
+  main {
+    margin-bottom: 150px;
+  }
+}
+/*==large device==*/
+@media (min-width: 769px) {
+  body {
+    background-color: yellow;
+  }
+
+  main {
+    margin-bottom: 150px;
   }
 }
 /*==polices==*/

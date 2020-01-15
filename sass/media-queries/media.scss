@@ -1,8 +1,43 @@
+/*==media queries==*/
+/*==small device==*/
 @media (max-width: 576px){
     body{
         background-color: red;
     }
+    main{
+        margin-bottom: 150px;
+    }
+    .background_menu1{
+        margin-bottom: 150px;
+    }
+    
 }
+/*==medium device==*/
+@media (min-width: 577px) and (max-width: 768px){
+    body{
+        background-color: blue;
+    }
+    main{
+        margin-bottom: 150px;
+    }
+
+}
+/*==large device==*/
+@media (min-width: 769px){
+    body{
+        background-color: yellow;
+    }
+    main{
+        margin-bottom: 150px;
+    }
+}
+
+
+
+
+
+
+
 
 
 
