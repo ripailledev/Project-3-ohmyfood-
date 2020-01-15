@@ -4,14 +4,24 @@
     body{
         background-color: red;
     }
+
     main{
         margin-bottom: 150px;
     }
-    .background_menu1{
-        margin-bottom: 150px;
+
+    li{
+        display: flex;
+        flex-direction: column;
     }
-    
+
+    main.background_menu1{        
+        margin-bottom: 90px;
+    }
+    section.header_menu1{
+        margin-top: 10px;
+    }
 }
+
 /*==medium device==*/
 @media (min-width: 577px) and (max-width: 768px){
     body{
@@ -20,7 +30,6 @@
     main{
         margin-bottom: 150px;
     }
-
 }
 /*==large device==*/
 @media (min-width: 769px){

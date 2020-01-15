@@ -111,8 +111,14 @@ a, h1 {
     margin-bottom: 150px;
   }
 
-  ul {
+  li {
     display: flex;
+    flex-direction: column;
+  }
+
+  main.background_menu1 {
+    margin-top: 1;
+    margin-bottom: 150px;
   }
 }
 /*==medium device==*/
