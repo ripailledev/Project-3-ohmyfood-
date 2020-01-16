@@ -116,9 +116,12 @@ a, h1 {
     flex-direction: column;
   }
 
-  main.background_menu1 {
-    margin-top: 1;
-    margin-bottom: 150px;
+  main.background_menu1 .background_menu2 .background_menu3 .background_menu4{
+    margin-bottom: 90px;
+  }
+  
+  header {
+    margin-bottom: 10px;
   }
 }
 /*==medium device==*/
