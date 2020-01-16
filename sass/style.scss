@@ -213,10 +213,9 @@ span.second_title_menu3{
 
 div.effect{
     font-family: monospace;
-    border-right: .15em solid $yellow;
+    border-right: solid $yellow;
     letter-spacing: .15em ;
-    overflow: hidden;
-    white-space: nowrap;  
+    overflow: hidden;  
     margin: auto;  
     animation: typing 5s steps(10, end) infinite;          
 }

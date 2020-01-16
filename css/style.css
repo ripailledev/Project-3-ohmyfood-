@@ -342,10 +342,9 @@ span.second_title_menu3 {
 
 div.effect {
   font-family: monospace;
-  border-right: 0.15em solid #fdcb46;
+  border-right: solid #fdcb46;
   letter-spacing: 0.15em;
   overflow: hidden;
-  white-space: nowrap;
   margin: auto;
   animation: typing 5s steps(10, end) infinite;
 }
