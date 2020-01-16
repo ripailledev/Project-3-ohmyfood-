@@ -99,6 +99,7 @@ $police2menu4:'Segoeprint';
     -webkit-background-clip: text;
     color: transparent;
 }
+
 @mixin styleline {
     display: flex;
     align-items: center;    
@@ -106,7 +107,9 @@ $police2menu4:'Segoeprint';
     justify-content: space-around;
     max-width: 700px;    
 }
+
 /*==keyframes==*/
+
 @keyframes typing{
        from{
            width: 0%;
@@ -115,6 +118,7 @@ $police2menu4:'Segoeprint';
            width: 10%;
        }
 }
+
 @keyframes shake {
        0% { transform: translate(1px, 1px) rotate(0deg); }
        10% { transform: translate(-1px, -2px) rotate(-1deg); }
@@ -128,7 +132,9 @@ $police2menu4:'Segoeprint';
        90% { transform: translate(1px, 2px) rotate(0deg); }
        100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
+
 /*==extend==*/
+
 %btn{
        &:hover a{
               transform: scale(1.60);

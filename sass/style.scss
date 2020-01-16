@@ -29,9 +29,10 @@
 @import "./base/base.scss";
 
 /*============index.html================*/
-h1{ color: $yellow;
-    @extend %clic
+h1{ 
+    color: ($yellow);    
 }
+
 a{
     @extend %clic
 }
@@ -59,6 +60,7 @@ header{
 main{
     display: block;
 }
+
 .card{
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +69,7 @@ main{
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
 .transform{
     height: 600px;
     width: 500px;
@@ -75,6 +78,7 @@ main{
     align-items: center;
     box-shadow:  1px 2px 20px rgb(139, 135, 135);
 }
+
 /*==menu1==*/
 
 .menu1{

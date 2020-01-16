@@ -95,7 +95,7 @@
   transform: scale(1.6);
 }
 
-a, h1 {
+a {
   transition: transform 800ms;
   text-decoration: none;
 }
