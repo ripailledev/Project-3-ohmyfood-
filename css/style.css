@@ -116,10 +116,22 @@ a, h1 {
     flex-direction: column;
   }
 
-  main.background_menu1 .background_menu2 .background_menu3 .background_menu4{
+  main.background_menu1 {
     margin-bottom: 90px;
   }
-  
+
+  main.background_menu2 {
+    margin-bottom: 90px;
+  }
+
+  main.background_menu3 {
+    margin-bottom: 90px;
+  }
+
+  main.background_menu4 {
+    margin-bottom: 90px;
+  }
+
   header {
     margin-bottom: 10px;
   }
@@ -132,6 +144,31 @@ a, h1 {
 
   main {
     margin-bottom: 150px;
+  }
+
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  main.background_menu1 {
+    margin-bottom: 90px;
+  }
+
+  main.background_menu2 {
+    margin-bottom: 90px;
+  }
+
+  main.background_menu3 {
+    margin-bottom: 90px;
+  }
+
+  main.background_menu4 {
+    margin-bottom: 90px;
+  }
+
+  header {
+    margin-bottom: 10px;
   }
 }
 /*==large device==*/
