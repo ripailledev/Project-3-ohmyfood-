@@ -59,6 +59,8 @@ header{
 
 main{
     display: block;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .card{
@@ -66,8 +68,8 @@ main{
     flex-wrap: wrap;
     justify-content: space-around;
     text-align: center;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 .transform{
