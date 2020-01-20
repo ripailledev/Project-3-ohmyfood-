@@ -75,16 +75,6 @@ $police2menu4:'Segoeprint';
         vertical-align:middle;
 }
 
-@mixin beforeline{
-    margin-left:-50%;
-    margin-right:3em
-}
-
-@mixin afterline{
-    margin-right:-50%;
-    margin-left:3em;
-}
-
 @mixin highlighted($color:black){
     background: linear-gradient(to top, ($color), 2px, transparent 3px) no-repeat;
     background-size: 0 100%;
