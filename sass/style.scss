@@ -104,10 +104,9 @@ span.second_title_menu1{
 }
 
 i{
-    background-image: linear-gradient(to right, ($note1), ($note2));
-    background-clip: text;
+    background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;
 }
 
 /*==menu2==*/
@@ -121,10 +120,9 @@ i{
     }
     @extend %btn;
     h2{
-        background-image: linear-gradient(to right, ($menu2txt1), ($menu2txt2));
-        background-clip: text;
+        background:-webkit-linear-gradient(right,($menu2txt1), ($menu2txt2));       
         -webkit-background-clip: text;
-        color: transparent; 
+        -webkit-text-fill-color: transparent;
     }
     span{
         color: $menu2txt3;

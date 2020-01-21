@@ -84,10 +84,9 @@ $police2menu4:'Segoeprint';
 }
 
 @mixin gradient1($color1:yellow,$color2:green){
-    background-image: linear-gradient(to right,($color1),($color2));
-    background-clip: text;
+    background: -webkit-linear-gradient(to right,($color1),($color2));     
     -webkit-background-clip: text;
-    color: transparent;
+    -webkit-text-fill-color: transparent;    
 }
 
 @mixin styleline {

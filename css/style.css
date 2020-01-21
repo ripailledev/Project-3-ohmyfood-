@@ -238,10 +238,9 @@ span.second_title_menu1 {
 }
 
 i {
-  background-image: linear-gradient(to right, #f05261, #f6916a);
-  background-clip: text;
+  background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 /*==menu2==*/
@@ -254,10 +253,9 @@ i {
   background-color: #ffdcfb;
 }
 .menu2 h2 {
-  background-image: linear-gradient(to right, #e38a12, #8f5aff);
-  background-clip: text;
+  background: -webkit-linear-gradient(right, #e38a12, #8f5aff);
   -webkit-background-clip: text;
-  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 .menu2 span {
   color: #c77412;
@@ -458,9 +456,9 @@ li {
 }
 .background_menu2 h2 {
   font-size: 60px;
-  background-image: linear-gradient(to right, #e38a12, #8f5aff);
-  background-clip: text;
+  background: -webkit-linear-gradient(to right, #e38a12, #8f5aff);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   margin: 0 auto;
 }
@@ -533,9 +531,9 @@ li {
 }
 .background_menu3 h2 {
   font-size: 60px;
-  background-image: linear-gradient(to right, #0230df, #0889fb);
-  background-clip: text;
+  background: -webkit-linear-gradient(to right, #0230df, #0889fb);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   margin: 0 auto;
 }
@@ -608,9 +606,9 @@ li {
 }
 .background_menu4 h2 {
   font-size: 60px;
-  background-image: linear-gradient(to right, #3e923a, #beff7f);
-  background-clip: text;
+  background: -webkit-linear-gradient(to right, #3e923a, #beff7f);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
   margin: 0 auto;
 }
@@ -681,9 +679,9 @@ li {
 }
 
 .header_menu4 h2 {
-  background-image: linear-gradient(to right, yellow, green);
-  background-clip: text;
+  background: -webkit-linear-gradient(to right, yellow, green);
   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   color: transparent;
 }
 
