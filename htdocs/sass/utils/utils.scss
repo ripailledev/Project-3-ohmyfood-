@@ -77,10 +77,10 @@ $police2menu4:'Segoeprint';
 }
 
 @mixin linear-gradient($color3:red,$color4:blue){
-    background-image:-webkit-linear-gradient(right,($color3), ($color4));
-    background-image:-moz-linear-gradient(right,($color3), ($color4));
-    background-image:-o-linear-gradient(right,($color3), ($color4));
-    background-image: linear-gradient(right,($color3), ($color4));     
+    background-image:-webkit-linear-gradient(to right,($color3), ($color4));
+    background-image:-moz-linear-gradient(to right,($color3), ($color4));
+    background-image:-o-linear-gradient(to right,($color3), ($color4));
+    background-image: linear-gradient(to right,($color3), ($color4));     
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
