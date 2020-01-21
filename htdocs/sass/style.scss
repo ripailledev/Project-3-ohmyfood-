@@ -104,9 +104,7 @@ span.second_title_menu1{
 }
 
 i{
-    background: -webkit-linear-gradient(#eee, #333);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    @include linear-gradient ($color3:$note1, $color4:$note2);
 }
 
 /*==menu2==*/
@@ -120,9 +118,7 @@ i{
     }
     @extend %btn;
     h2{
-        background:-webkit-linear-gradient(right,($menu2txt1), ($menu2txt2));       
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        @include linear-gradient($color3:$menu2txt1, $color4:$menu2txt2);        
     }
     span{
         color: $menu2txt3;
@@ -148,10 +144,7 @@ span.second_title_menu2{
     }
     @extend %btn;
     h2{
-        background-image: linear-gradient(to right, ($menu3txt1), ($menu3txt2));
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linear-gradient($color3:$menu3txt2, $color4:$menu3txt1);
     }
     span{
         color: $menu3txt2;
@@ -176,10 +169,7 @@ span.second_title_menu3{
     }
     @extend %btn;
     h2{
-        background-image: linear-gradient(to right, ($menu4txt1), ($menu4txt2));
-        background-clip: text;
-        -webkit-background-clip: text;
-        color: transparent;
+        @include linear-gradient($color3:$menu4txt2,$color4:$menu4txt1);
     }
     span{
         color: $menu4txt3;

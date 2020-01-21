@@ -67,13 +67,6 @@ $police2menu4:'Segoeprint';
     color: $yellow;
 }
 
-@mixin line($color:black){
-    content:'';
-        width:10%;
-        border-bottom:($color) solid;
-        display:inline-block;
-        vertical-align:middle;
-}
 
 @mixin highlighted($color:black){
     background: linear-gradient(to top, ($color), 2px, transparent 3px) no-repeat;
@@ -87,6 +80,15 @@ $police2menu4:'Segoeprint';
     background: -webkit-linear-gradient(to right,($color1),($color2));     
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;    
+}
+
+@mixin linear-gradient($color3:red,$color4:blue){
+    background-image:-webkit-linear-gradient(right,($color3), ($color4));
+    background-image:-moz-linear-gradient(right,($color3), ($color4));
+    background-image:-o-linear-gradient(right,($color3), ($color4));
+    background-image: linear-gradient(right,($color3), ($color4));     
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 @mixin styleline {
