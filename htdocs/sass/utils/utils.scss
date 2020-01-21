@@ -76,12 +76,6 @@ $police2menu4:'Segoeprint';
         background-size: 100% 100%;}
 }
 
-@mixin gradient1($color1:yellow,$color2:green){
-    background: -webkit-linear-gradient(to right,($color1),($color2));     
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;    
-}
-
 @mixin linear-gradient($color3:red,$color4:blue){
     background-image:-webkit-linear-gradient(right,($color3), ($color4));
     background-image:-moz-linear-gradient(right,($color3), ($color4));
