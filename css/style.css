@@ -591,7 +591,7 @@ li {
   max-width: 700px;
 }
 .dessert-menu3 h3 {
-  background: linear-gradient(to top, darken #0230df, 2, 2px, transparent 3px) no-repeat;
+  background: linear-gradient(to top, #022ed5, 2px, transparent 3px) no-repeat;
   background-size: 0 100%;
   transition: background-size 0.3s;
 }

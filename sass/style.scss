@@ -409,9 +409,9 @@ li{
 .dessert-menu3{
     @include styleline;
     h3{
-        @include highlighted($color:darken ($menu3txt1, 2));
+        @include highlighted($color:darken($menu3txt1, 2));
     }
-}
+    }
 
 /*===========menu4.html============*/
 
