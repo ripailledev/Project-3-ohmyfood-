@@ -133,7 +133,7 @@ a {
   }
 
   section.prochainement {
-    width: 70%;
+    width: 75%;
   }
 }
 /*==medium device==*/
@@ -168,7 +168,7 @@ a {
   }
 }
 /*==large device==*/
-@media (min-width: 769px) {
+@media (min-width: 768px) {
   main {
     margin-bottom: 150px;
   }
