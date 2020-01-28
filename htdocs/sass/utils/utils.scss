@@ -61,6 +61,11 @@ $menu4txt3: #72bf56;
 $police1menu4:'KaushanScript-Regular';
 $police2menu4:'Segoeprint';
 
+      //breakpoints
+$breaksmall: 576px;
+$breakmedium: 768px; 
+$breaklarge:1024px;
+
 /*==============mixins============*/
 @mixin greenyellow {
     background-color: $green;
