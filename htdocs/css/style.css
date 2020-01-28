@@ -131,6 +131,10 @@ a {
   header {
     margin-bottom: 10px;
   }
+
+  section.prochainement {
+    width: 70%;
+  }
 }
 /*==medium device==*/
 @media (min-width: 577px) and (max-width: 768px) {
