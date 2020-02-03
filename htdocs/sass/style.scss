@@ -62,6 +62,7 @@ main{
     display: block;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 150px;
 }
 
 .card{
@@ -259,8 +260,8 @@ li{
     text-align: center;
     font-family: $police1menu1;
     background-color: $menu1;
-    margin-bottom: 68px;
-
+    margin-top: 10px;
+    margin-bottom: 150px;
     h2{
         font-size: 60px;
         margin: 0 auto;
@@ -311,8 +312,8 @@ li{
     text-align: center;
     font-family: $police1menu2;
     background-color: $menu2;
-    margin-bottom: 68px;
-
+    margin-top: 10px;
+    margin-bottom: 150px;
     h2{
         font-size: 60px;
         @include linear-gradient($menu2txt1,$menu2txt2);
@@ -361,8 +362,8 @@ li{
     text-align: center;
     font-family: $police1menu3;
     background-color: $menu3b;
-    margin-bottom: 68px;
-
+    margin-top: 10px;
+    margin-bottom: 150px;
     h2{
         font-size:60px;
         @include linear-gradient($menu3txt1,$menu3txt2);
@@ -409,8 +410,8 @@ li{
     text-align: center;
     font-family: $police1menu4;
     background-color: $menu4;
-    margin-bottom: 68px;
-
+    margin-top: 10px;
+    margin-bottom: 150px;
     h2{
         font-size: 60px;
         @include linear-gradient($menu4txt1,$menu4txt2);
