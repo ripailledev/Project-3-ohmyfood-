@@ -52,7 +52,7 @@
     width: 0%;
   }
   to {
-    width: 10%;
+    width: 15%;
   }
 }
 @keyframes shake {
@@ -179,11 +179,15 @@ h1 {
   color: #fdcb46;
 }
 
+body {
+  margin: 0px;
+}
+
 /*=================Header=============*/
 header {
   background-color: #579c87;
   color: #fdcb46;
-  width: 100%;
+  min-width: 100%;
   height: 200px;
   box-shadow: 0px 2px #a1c181;
   text-align: center;
@@ -354,13 +358,13 @@ span.second_title_menu3 {
   border-radius: 10px;
 }
 
-div.effect {
+p.effect {
   font-family: monospace;
   border-right: solid #fdcb46;
   letter-spacing: 0.15em;
   overflow: hidden;
   margin: auto;
-  animation: typing 5s steps(10, end) infinite;
+  animation: typing 6s steps(10, end) infinite;
 }
 
 /*=================footer=============*/
@@ -370,21 +374,26 @@ footer {
   position: fixed;
   box-shadow: 0px -2px #a1c181;
   bottom: 0;
-  width: 90%;
+  min-width: 100%;
   display: flex;
-  justify-content: space-between;
-  padding-left: 5%;
-  padding-right: 5%;
+  justify-content: space-around;
+  align-items: center;
 }
 footer h2 {
   color: #fdcb46;
 }
 
+.mentions {
+  margin: 20px;
+}
 .mentions:hover {
   animation: shake 0.5S;
   animation-iteration-count: infinite;
 }
 
+.mail {
+  margin: 20px;
+}
 .mail:hover {
   animation: shake 0.5S;
   animation-iteration-count: infinite;
