@@ -115,9 +115,13 @@ a {
   section.prochainement {
     width: 75%;
   }
+
+  main.background_menu2 h2 {
+    font-size: 25px;
+  }
 }
 /*==medium device==*/
-@media (min-width: 576px) and (max-width: 768px) {
+@media screen and (min-width: 576px) and (max-width: 768px) {
   li {
     display: flex;
     flex-direction: column;
@@ -126,8 +130,17 @@ a {
   header {
     margin-bottom: 10px;
   }
+
+  .background_menu2 h2 {
+    font-size: 30px;
+  }
 }
 /*==large device==*/
+@media (min-width: 768px) {
+  .background_menu2 h2 {
+    font-size: 60px;
+  }
+}
 /*==polices==*/
 /*============index.html================*/
 h1 {
