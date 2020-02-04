@@ -119,6 +119,15 @@ a {
   .background_menu2 h2 {
     font-size: 25px;
   }
+
+  p.effect {
+    font-family: monospace;
+    border-right: solid #fdcb46;
+    letter-spacing: 0.15em;
+    overflow: hidden;
+    margin: auto;
+    animation: typing 10s steps(10, end) infinite;
+  }
 }
 /*==medium device==*/
 @media (min-width: 576px) and (max-width: 768px) {
@@ -133,6 +142,15 @@ a {
 
   .background_menu2 h2 {
     font-size: 30px;
+  }
+
+  p.effect {
+    font-family: monospace;
+    border-right: solid #fdcb46;
+    letter-spacing: 0.15em;
+    overflow: hidden;
+    margin: auto;
+    animation: typing 10s steps(10, end) infinite;
   }
 }
 /*==large device==*/
