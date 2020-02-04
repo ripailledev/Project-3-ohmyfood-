@@ -43,14 +43,14 @@ h1{
 }
 
 a{
-    @extend %clic
+    @extend %clic;
 }
 
 body{
     margin: 0px;
 }
 
-.width {
+.width{
     max-width: 1200px;
     margin-left: auto;
     margin-right:auto;
