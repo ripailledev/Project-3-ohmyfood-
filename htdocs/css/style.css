@@ -1,21 +1,26 @@
 @charset "UTF-8";
-/*=====================sommaire====================*/
-/*==import==*/
-/*============index.html==============*/
-/*==index==*/
-/*==header==*/
-/*==main==*/
-/*==menu1==*/
-/*==menu2==*/
-/*==menu3==*/
-/*==menu4==*/
-/*==prochainement==*/
-/*==footer==*/
-/*===========menu============*/
-/*===========menu1.html============*/
-/*===========menu2.html============*/
-/*===========menu3.html============*/
-/*===========menu4.html============*/
+/*==sommaire==*/
+/*
+-importbefore
+-importafter
+*/
+/*==index.html==*/
+/*
+-index
+-header
+-main
+-menu1
+-menu2
+-menu3
+-menu4
+-prochainement
+-footer
+*/
+/*==menu==*/
+/*==menu1.html==*/
+/*==menu2.html==*/
+/*==menu3.html==*/
+/*==menu4.html==*/
 /*==barre de séparation==*/
 /*=================import before==============*/
 /*==polices==*/

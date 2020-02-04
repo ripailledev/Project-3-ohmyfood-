@@ -1,20 +1,29 @@
-/*=====================sommaire====================*/
-    /*==import==*/
-/*============index.html==============*/    
-    /*==index==*/
-    /*==header==*/
-    /*==main==*/
-    /*==menu1==*/
-    /*==menu2==*/
-    /*==menu3==*/
-    /*==menu4==*/
-    /*==prochainement==*/
-    /*==footer==*/
-/*===========menu============*/    
-/*===========menu1.html============*/
-/*===========menu2.html============*/
-/*===========menu3.html============*/
-/*===========menu4.html============*/
+/*==sommaire==*/
+
+/*
+-importbefore
+-importafter
+*/
+
+/*==index.html==*/
+
+/*
+-index
+-header
+-main
+-menu1
+-menu2
+-menu3
+-menu4
+-prochainement
+-footer
+*/
+
+/*==menu==*/    
+/*==menu1.html==*/
+/*==menu2.html==*/
+/*==menu3.html==*/
+/*==menu4.html==*/
 /*==barre de séparation==*/
 
 
@@ -22,8 +31,6 @@
 /*=================import before==============*/
 
 @import "./utils/utils.scss";
-
-
 
 /*==polices==*/
 
@@ -225,8 +232,6 @@ span.effect{
 
 /*=================footer=============*/
 
-
-
 footer{
     @include greenyellow;
     position: fixed;
@@ -321,7 +326,6 @@ li{
     @include styleline;
 }
 
-
 /*===========menu2.html============*/
 
 .background_menu2{
@@ -399,6 +403,7 @@ li{
         font-size: large;
     }    
 }
+
 .entree-menu3{
     @include styleline;
     h3{
@@ -511,4 +516,5 @@ li{
 }
 
 /*=====import after================*/
+
 @import "./media-queries/media.scss";
