@@ -17,7 +17,7 @@
 /*===========menu3.html============*/
 /*===========menu4.html============*/
 /*==barre de séparation==*/
-/*=================import==============*/
+/*=================import before==============*/
 /*==polices==*/
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @font-face {
@@ -100,65 +100,6 @@ a {
   text-decoration: none;
 }
 
-/*==media queries==*/
-/*==small device==*/
-@media (max-width: 576px) {
-  li {
-    display: flex;
-    flex-direction: column;
-  }
-
-  header {
-    margin-bottom: 10px;
-  }
-
-  section.prochainement {
-    width: 75%;
-  }
-
-  .background_menu2 h2 {
-    font-size: 25px;
-  }
-
-  p.effect {
-    font-family: monospace;
-    border-right: solid #fdcb46;
-    letter-spacing: 0.15em;
-    overflow: hidden;
-    margin: auto;
-    animation: typing 10s steps(10, end) infinite;
-  }
-}
-/*==medium device==*/
-@media (min-width: 576px) and (max-width: 768px) {
-  li {
-    display: flex;
-    flex-direction: column;
-  }
-
-  header {
-    margin-bottom: 10px;
-  }
-
-  .background_menu2 h2 {
-    font-size: 30px;
-  }
-
-  p.effect {
-    font-family: monospace;
-    border-right: solid #fdcb46;
-    letter-spacing: 0.15em;
-    overflow: hidden;
-    margin: auto;
-    animation: typing 10s steps(10, end) infinite;
-  }
-}
-/*==large device==*/
-@media (min-width: 768px) and (max-width: 1022px) {
-  .background_menu2 h2 {
-    font-size: 60px;
-  }
-}
 /*==polices==*/
 /*============index.html================*/
 h1 {
@@ -167,6 +108,12 @@ h1 {
 
 body {
   margin: 0px;
+}
+
+.width {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /*=================Header=============*/
@@ -345,7 +292,8 @@ span.second_title_menu3 {
   border-radius: 10px;
 }
 
-p.effect {
+span.effect {
+  display: block;
   font-family: monospace;
   border-right: solid #fdcb46;
   letter-spacing: 0.15em;
@@ -362,11 +310,13 @@ footer {
   box-shadow: 0px -2px #a1c181;
   bottom: 0;
   min-width: 100%;
+}
+footer #footer-inner {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-footer h2 {
+footer #footer-inner h2 {
   color: #fdcb46;
 }
 
@@ -740,6 +690,67 @@ li {
 }
 .line--4b {
   fill: url(#mygradient2);
+}
+
+/*=====import after================*/
+/*==media queries==*/
+/*==small device==*/
+@media (max-width: 576px) {
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    margin-bottom: 10px;
+  }
+
+  section.prochainement {
+    width: 75%;
+  }
+
+  .background_menu2 h2 {
+    font-size: 25px;
+  }
+
+  p.effect {
+    font-family: monospace;
+    border-right: solid #fdcb46;
+    letter-spacing: 0.15em;
+    overflow: hidden;
+    margin: auto;
+    animation: typing 10s steps(10, end) infinite;
+  }
+}
+/*==medium device==*/
+@media (min-width: 576px) and (max-width: 768px) {
+  li {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    margin-bottom: 10px;
+  }
+
+  .background_menu2 h2 {
+    font-size: 30px;
+  }
+
+  p.effect {
+    font-family: monospace;
+    border-right: solid #fdcb46;
+    letter-spacing: 0.15em;
+    overflow: hidden;
+    margin: auto;
+    animation: typing 10s steps(10, end) infinite;
+  }
+}
+/*==large device==*/
+@media (min-width: 768px) and (max-width: 1022px) {
+  .background_menu2 h2 {
+    font-size: 60px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
