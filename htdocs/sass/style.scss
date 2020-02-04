@@ -29,6 +29,7 @@
 @import "./base/base.scss";
 
 /*============index.html================*/
+
 h1{ 
     color: ($yellow);    
 }
@@ -39,6 +40,7 @@ a{
 body{
     margin: 0px;
 }
+
 /*=================Header=============*/
 
 header{
@@ -402,7 +404,7 @@ li{
     h3{
         @include highlighted($color:darken($menu3txt1, 2));
     }
-    }
+}
 
 /*===========menu4.html============*/
 
