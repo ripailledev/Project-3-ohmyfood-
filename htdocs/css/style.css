@@ -342,6 +342,10 @@ footer #footer-inner h2 {
 }
 
 /*===========menu ============*/
+ul {
+  padding: none;
+}
+
 li {
   list-style-type: none;
   display: flex;
