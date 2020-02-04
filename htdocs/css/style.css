@@ -343,7 +343,8 @@ footer #footer-inner h2 {
 
 /*===========menu ============*/
 ul {
-  padding: none;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 li {
@@ -728,7 +729,7 @@ li {
     letter-spacing: 0.15em;
     overflow: hidden;
     margin: auto;
-    animation: typing 10s steps(10, end) infinite;
+    animation: typing 15s steps(10, end) infinite;
   }
 }
 /*==medium device==*/
@@ -752,14 +753,15 @@ li {
     letter-spacing: 0.15em;
     overflow: hidden;
     margin: auto;
-    animation: typing 10s steps(10, end) infinite;
+    animation: typing 15s steps(10, end) infinite;
   }
 }
 /*==large device==*/
-@media (min-width: 768px) and (max-width: 1022px) {
+@media (min-width: 768px) and (max-width: 992px) {
   .background_menu2 h2 {
     font-size: 60px;
   }
 }
+/*==xlarge device==*/
 
 /*# sourceMappingURL=style.css.map */
